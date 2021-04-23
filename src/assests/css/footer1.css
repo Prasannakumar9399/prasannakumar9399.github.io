@@ -1,0 +1,31 @@
+.container{
+    /* padding: 1rem; */
+    background-color: #8fcaf1;
+    color: #021433;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.container h2{
+    color: white;
+}
+
+  .con-part-1 p{
+   margin: 0.8rem 0;
+  }
+@media only screen and (min-width:1024px){
+    .container{
+        flex-direction: row;
+    }
+    .container h2{
+        text-align: start;
+    }
+    .container button{
+        width: 22rem;
+        height: 5rem;
+        font-size: 1.2rem;
+    }
+
+}

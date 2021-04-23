@@ -1,0 +1,199 @@
+@font-face{
+    font-family: 'Nexa Bold';
+    src: url('../font/Nexa-Bold.otf');
+}
+@font-face{
+    font-family: 'Nexa Light';
+    src: url('../font/Nexa-Light.otf');
+}
+
+:root{
+    --primary-color:rgba(166,198,223,255);
+    --second-color:#021433;
+    --icon-color:#525659;
+    --dark-blue:#021433;
+    --list-color:rgb(185, 174, 174);
+    --white-color:#fff;
+    --anchr-color:#cccccc;
+    --gray-color:rgba(235, 233, 233, 0.603);
+    --blue-color:#008cff;
+    --black-color:#000;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Nexa Bold";
+    text-align: center;
+    color: var(--dark-blue);
+}
+h1,h2{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+h3{
+    font-size: 1.75rem;
+    line-height: 1.9rem;
+}
+h4{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+h5{
+    font-size: 1.3rem;
+    line-height: 1.65rem;
+}
+h6{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+p{
+    font-family: "Nexa Light";
+     line-height: 1.5rem;
+     font-size: 1.1rem;
+     text-align: center;
+     color: var(--dark-blue);
+}
+
+input{
+    font-family: "Nexa Light";
+    font-size: 0.9rem;
+    border: none;
+    outline:none;
+    padding: 0.9rem 1.5rem;
+    width: 100%;
+    }
+
+ ul>li,ol>li{
+    font-size: 1.25rem;
+    font-family: 'Nexa Bold';
+    padding: 1.3rem;
+    color: var(--list-color);
+ }   
+
+i{
+    color: var(--icon-color);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+select{
+    font-family: "Nexa Light";
+    border: none;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    font-family: "Nexa Bold";
+    outline: none;
+    background-color: var(--gray-color);
+}
+section{
+    padding: 2rem 1rem;
+}
+a{
+    font-size: 1.2rem;
+    font-family: "Nexa Light";
+   cursor: pointer;
+    text-decoration: none;
+    color: var(--anchr-color)
+}
+option{
+    font-size: 1.2rem;
+    font-family: "Nexa Light";
+    line-height: 1.5rem;
+    color: var(--dark-blue);
+}
+::placeholder{
+    font-size: 0.9rem;
+    font-family: 'NEXA LIGHT';
+  }
+label{
+    font-size: 1rem;
+    font-family: 'NEXA LIGHT';
+}
+button {
+    border: none;
+    font-family: "Nexa Light";
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    line-height: 1.2rem;
+}
+
+@media only screen and (min-width:768px){
+  
+    h1,h2{
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+    section{
+        padding: 2rem 2rem;
+    }
+    h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    h4{
+        font-size: 1.75rem;
+        line-height: 1.9rem;
+    }
+    h5{
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+    }
+    h6{
+        font-size: 1.3rem;
+        line-height: 1.65rem;
+    }
+    ::placeholder{
+        font-size: 0.9rem;
+      }
+  
+}
+
+@media  only screen  and (min-width:1024px){
+
+    h1,h2,h3,h4,h5,h6{
+        text-align: left;
+    }
+ h1,h2{
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+}
+h3{
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+}
+h4{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+h5{
+    font-size: 1.75rem;
+    line-height: 1.9rem;
+}
+h6{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+section{
+    padding: 5rem 4rem;
+}
+p{
+    text-align: left;
+}
+::placeholder{
+    font-size: 1rem;
+  }
+  select{
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    font-family: "Nexa Bold";
+  }
+}

@@ -4,12 +4,19 @@
   "description": "## This is the wiki file to read about the tasks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:style":"node-sass ./src/assests/scss/style.scss  ./src/assests/css/test.css -w",
+    "compile:hosp":"node-sass ./src/assests/scss/hosp.scss  ./src/assests/css/hosp.css -w",
+    "compile:login":"node-sass ./src/assests/scss/login.scss  ./src/assests/css/login.css -w",
+    "compile:sign":"node-sass ./src/assests/scss/signup.scss  ./src/assests/css/signup.css -w",
+    "compile:treatment":"node-sass ./src/assests/scss/treatment.scss  ./src/assests/css/treatment.css -w"
   },
   "repository": {
     "type": "git",
     "url": "git@workspace.konfinity.com:html-css-demo/tvastra.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }

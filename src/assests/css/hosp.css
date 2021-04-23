@@ -1,0 +1,98 @@
+.hospital .main-cont .doc-filt-1 {
+  display: none; }
+
+.hospital .hosp-row-1 {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .hospital .hosp-row-1 ul li {
+    font-size: 1.25rem;
+    padding: 0;
+    color: black;
+    font-family: "Nexa Light"; }
+  .hospital .hosp-row-1 select {
+    padding: 0.8rem;
+    font-size: 1rem; }
+
+.hospital .hospitals {
+  display: flex;
+  flex-direction: column; }
+  .hospital .hospitals .hosp-row {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .hospital .hospitals .hosp-row .hosp-name {
+      display: flex; }
+      .hospital .hospitals .hosp-row .hosp-name span {
+        padding: 0.7rem 0;
+        color: var(--blue-color); }
+      .hospital .hospitals .hosp-row .hosp-name p {
+        text-align: left;
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        color: var(--blue-color);
+        font-family: 'Times New Roman', Times, serif; }
+    .hospital .hospitals .hosp-row .hosp-icon .icon {
+      padding: 0 0 1.5rem 1.5rem;
+      font-size: 1.3rem;
+      display: flex;
+      align-items: center; }
+      .hospital .hospitals .hosp-row .hosp-icon .icon i {
+        margin-right: 1rem; }
+    .hospital .hospitals .hosp-row .hosp-icon i {
+      color: var(--blue-color); }
+    .hospital .hospitals .hosp-row .hosp-disease {
+      margin-left: 1.5rem;
+      display: flex;
+      flex-direction: column; }
+      .hospital .hospitals .hosp-row .hosp-disease .dis {
+        border: 1px solid gray;
+        border-radius: 1rem;
+        padding: 0.3rem 0.6rem;
+        width: fit-content;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem; }
+      .hospital .hospitals .hosp-row .hosp-disease p {
+        text-align: left;
+        font-size: 1rem; }
+      .hospital .hospitals .hosp-row .hosp-disease .multi-dis {
+        display: flex;
+        align-items: center; }
+    .hospital .hospitals .hosp-row .call-btn {
+      text-align: center;
+      margin-bottom: 1rem;
+      padding: 0.6rem 4rem; }
+  .hospital .hospitals .pad-row {
+    margin-top: 1rem; }
+
+@media only screen and (min-width: 768px) {
+  .hospital .hospitals .hosp-row {
+    flex-direction: row; }
+    .hospital .hospitals .hosp-row .hosp-details .hosp-disease .dis-part-1 {
+      display: flex; }
+    .hospital .hospitals .hosp-row .hosp-details .hosp-disease .part-2 {
+      display: flex; }
+    .hospital .hospitals .hosp-row .hosp-details .hosp-icon {
+      display: flex;
+      align-items: center; }
+      .hospital .hospitals .hosp-row .hosp-details .hosp-icon .icon-part-1 {
+        width: 40%; }
+    .hospital .hospitals .hosp-row .hosp-details .call-btn {
+      text-align: left;
+      padding-left: 1.5rem; }
+    .hospital .hospitals .hosp-row .hosp-img {
+      width: 30%; } }
+
+@media only screen and (min-width: 1024px) {
+  .hospital .main-cont {
+    display: flex; }
+    .hospital .main-cont .doc-filt-1 {
+      display: block;
+      width: 20%;
+      margin-top: 0; }
+    .hospital .main-cont .hospitals {
+      width: 80%; }
+      .hospital .main-cont .hospitals .hosp-row .hosp-details .hosp-icon .icon-part-1 {
+        width: 75%; } }

@@ -1,0 +1,80 @@
+body {
+  background-color: var(--primary-color);
+  position: relative; }
+  body .signup-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    body .signup-section .signup-form {
+      background-color: var(--white-color);
+      padding: 1rem 0;
+      width: 100%;
+      max-width: 500px; }
+      body .signup-section .signup-form ::placeholder {
+        font-family: "Nexa Bold";
+        opacity: 0.6; }
+      body .signup-section .signup-form h5 {
+        padding: 0.5rem 0;
+        color: var(--blue-color); }
+      body .signup-section .signup-form .signup-content {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        position: relative; }
+        body .signup-section .signup-form .signup-content .location {
+          display: flex;
+          width: 100%;
+          justify-content: space-between; }
+          body .signup-section .signup-form .signup-content .location input {
+            width: 49%; }
+        body .signup-section .signup-form .signup-content input {
+          padding: 0.7rem;
+          border: 1px solid #cecdcd; }
+        body .signup-section .signup-form .signup-content select {
+          background-color: var(--white-color);
+          font-family: "Nexa Bold";
+          border: 1px solid gray;
+          opacity: 0.4;
+          font-size: 0.9rem; }
+          body .signup-section .signup-form .signup-content select option {
+            font-size: 00.9rem; }
+        body .signup-section .signup-form .signup-content .inp-mgn {
+          margin-top: 1rem; }
+        body .signup-section .signup-form .signup-content button {
+          margin-top: 1rem;
+          padding: 1rem 2rem;
+          font-size: 1.1rem;
+          letter-spacing: 0.3rem;
+          position: relative;
+          margin-bottom: 1rem; }
+          body .signup-section .signup-form .signup-content button i {
+            color: var(--white-color);
+            font-size: 1rem;
+            position: absolute;
+            right: 1rem;
+            top: 32%; }
+      body .signup-section .signup-form P {
+        font-size: 0.9rem;
+        color: gray;
+        font-family: "Nexa Bold"; }
+        body .signup-section .signup-form P span {
+          color: var(--blue-color); }
+  body .last-p {
+    font-family: 'Nexa Bold';
+    font-size: 0.9rem;
+    position: relative;
+    width: 100%;
+    padding-bottom: 1rem; }
+
+@media only screen and (min-width: 1024px) {
+  h5, p {
+    text-align: center; }
+  body .signup-section .signup-form .signup-content select {
+    background-color: var(--white-color);
+    font-family: "Nexa Bold";
+    border: 1px solid gray;
+    opacity: 0.4;
+    font-size: 1rem;
+    padding: 0.9rem 0.5rem; } }

@@ -1,0 +1,109 @@
+
+$border-color:rgb(206, 205, 205);
+
+body{
+    background-color: var(--primary-color);
+    position: relative;
+    .signup-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+       .signup-form{
+        background-color: var(--white-color);
+        padding: 1rem 0;
+        width: 100%;
+        max-width: 500px;
+        ::placeholder{
+            font-family: "Nexa Bold";
+            opacity: 0.6;
+          }
+        h5{
+            padding: 0.5rem 0;
+            color: var(--blue-color);
+        }
+        .signup-content{
+            display: flex;
+             flex-direction: column;
+              padding: 1rem;
+              position: relative;
+              .location{
+                  display: flex;
+                  width: 100%;
+                  justify-content: space-between;
+                  input{
+                      width: 49%;
+                  }
+              }
+           input{
+            padding: 0.7rem;
+            border: 1px solid $border-color;
+        }
+            select{
+                background-color: var(--white-color);
+                font-family: "Nexa Bold";
+                border: 1px solid gray;
+                opacity: 0.4;
+                font-size: 0.9rem;
+                option{
+                    font-size: 00.9rem;
+                }
+            }
+            
+             .inp-mgn{
+                 margin-top: 1rem;
+             }
+           
+             button{
+                margin-top: 1rem;
+                padding: 1rem 2rem;
+               font-size: 1.1rem;
+               letter-spacing: 0.3rem;
+               position: relative;
+               margin-bottom: 1rem;
+               i{
+                   color: var(--white-color);
+                   font-size: 1rem;
+                   position: absolute;
+                   right: 1rem;
+                   top: 32%;
+               }
+             }
+        }
+        P{
+            font-size: 0.9rem;
+            color:gray;
+            font-family: "Nexa Bold";
+            span{
+                color: var(--blue-color);
+               
+            }
+        }
+       
+       }
+     
+    }
+    .last-p{
+        font-family: 'Nexa Bold';
+        font-size: 0.9rem;
+        position: relative;
+        width: 100%;
+        padding-bottom: 1rem;
+       }
+}
+
+@media only screen and (min-width:1024px){
+    h5,p{
+        text-align: center;
+    }
+   body .signup-section .signup-form .signup-content select {
+        background-color: var(--white-color);
+        font-family: "Nexa Bold";
+        border: 1px solid gray;
+        opacity: 0.4;
+        font-size: 1rem;
+        padding: 0.9rem 0.5rem;
+    }
+}

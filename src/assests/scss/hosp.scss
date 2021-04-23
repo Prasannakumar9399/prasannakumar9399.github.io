@@ -1,0 +1,152 @@
+.hospital{
+    .main-cont{
+        .doc-filt-1{
+            display: none;
+        }
+    }
+    .hosp-row-1{
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul li{
+            font-size: 1.25rem;
+            padding: 0;
+            color: black;
+            font-family: "Nexa Light";
+        }
+        select{
+            padding: 0.8rem;
+            font-size: 1rem;
+        }
+    }
+    .hospitals{
+        display: flex;
+        flex-direction: column;
+        .hosp-row{
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .hosp-name{
+                display: flex;
+                span{
+                padding: 0.7rem 0;
+                color: var(--blue-color);
+                }
+                p{
+                    text-align: left;
+                    padding: 1rem 0;
+                    font-size: 1.5rem;
+                    color: var(--blue-color);
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+            .hosp-icon{
+                .icon{
+                    padding: 0 0 1.5rem 1.5rem;
+                    font-size: 1.3rem;
+                    display: flex;
+                    align-items: center;
+                    i{
+                        margin-right: 1rem;
+                    }
+                }
+                  i{
+                      color: var(--blue-color);
+                  }
+            }
+            .hosp-disease{
+                margin-left:1.5rem ;
+                display: flex;
+                flex-direction: column;
+                .dis{
+                    border: 1px solid gray;
+                    border-radius: 1rem;
+                    padding: 0.3rem 0.6rem;
+                    width: fit-content;
+                    margin-bottom: 0.5rem;
+                    margin-right: 0.5rem;
+                }
+                
+                p{
+                    text-align: left;
+                    font-size: 1rem;
+                }
+                .multi-dis{
+                    display: flex;
+                    align-items: center;
+                }
+              
+            }
+            .call-btn{
+                text-align: center;
+                margin-bottom: 1rem;
+                padding: 0.6rem 4rem;
+            }
+        }
+        .pad-row{
+            margin-top: 1rem;
+        }
+    }
+}
+@media only screen and (min-width:768px){
+    .hospital{
+        .hospitals{
+            .hosp-row{
+              flex-direction: row;
+              .hosp-details{
+                  .hosp-disease{
+                      .dis-part-1{
+                          display: flex;
+                      }
+                      .part-2{
+                          display: flex;
+                      }
+                  }
+                  .hosp-icon{
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    .icon-part-1{
+                        width: 40%;
+                    }
+                  }
+                  .call-btn{
+                     text-align: left;
+                     padding-left: 1.5rem;
+                  }
+              }
+              .hosp-img{
+                  width: 30%;
+              }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .hospital{
+        .main-cont{
+            display: flex;
+            .doc-filt-1{
+                display: block;
+                width: 20%;
+                margin-top: 0;
+            }
+            .hospitals{
+                width: 80%;
+                .hosp-row{
+                    .hosp-details{
+                        .hosp-icon{
+                            .icon-part-1{
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+     
+    }
+}

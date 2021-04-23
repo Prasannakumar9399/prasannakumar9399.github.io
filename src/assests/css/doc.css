@@ -1,0 +1,219 @@
+.container-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.doc-btn{
+ text-align: center;
+}
+ul > li{
+  padding: 0;
+  color: black;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Nexa Light';
+}
+.doc-name{
+  display: flex;
+  padding: 1rem 0;
+}
+.doc-name h4,span{
+  text-align: start;
+  color: #4aaaec;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.doc-li li{
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.doc-li ul li{
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.li-icon{
+  padding-right: 1rem;
+}
+.li-icon i{
+  color: var(--blue-color);
+}
+.doc{
+  margin-top: 1rem;
+  border: 1px solid gray;
+}
+.doc-row .doc-img{
+  margin-top: 0.6rem;
+}
+.tab-banner{
+  display: none;
+}
+.doc-filt-1{
+  display: none;
+}
+@media only screen and (min-width:768px){
+select {
+  font-family: "Nexa Bold";
+}
+.doc-li{
+  display: flex;
+}
+.doc-row{
+  display: flex;
+}
+.doc-row-1{
+  width: 80%;
+  padding-bottom: 1rem; 
+}
+.doc-img{
+  width: 28%;
+}
+.doc-btn{
+  text-align: start;
+}
+.doc-li ul li,.doc-btn{
+ padding-left:2rem ;
+}
+.tab-banner{
+  display: block;
+  height: 41vh;
+  background: var(--primary-color);
+  position: relative;
+}
+.tab-banner img{
+  opacity: 0.2;
+  
+}
+.banner-head{
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+}
+.banner-head h3{
+  font-family: "Nexa Bold";
+}
+.banner-head span{
+  color: var(--dark-blue);
+  font-family: "Nexa Light";
+}
+.filt-container{
+  display: flex;
+  
+}
+.filt-head{
+  background-color: var(--gray-color);
+  padding: 0.5rem 1rem;
+}
+.choose-div{
+  display:none;
+}
+.filt-head h6{
+ text-align: start;
+ font-size: 1rem;
+}
+.doc-filt-1{
+  display: block;
+  margin-top: 1rem;
+  width: 47%;
+  margin-right: 1rem;
+}
+.row-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 1rem;
+}
+.fa-search{
+  color: #4aaaec;
+}
+.checkboxes{
+  display: flex;
+  align-items: center;
+  padding: 0.1rem;
+}
+.checkboxes label{
+  width: 75%;
+  padding-left: 0.5rem;
+}
+
+.check-input{
+  width: 40px;
+}
+.show-more{
+  display: flex;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    color: #4aaaec;
+}
+.show-more span{
+  
+  margin-right: 0.4rem;
+}
+p{
+  text-align: start;
+}
+}
+@media only screen and (min-width:1024px){
+  .banner-head{
+    left: 4rem;
+  }
+  .banner-head h3{
+    font-family: "Nexa Light";
+  }
+  .banner-head span{
+    color: var(--dark-blue);
+  }
+  .doc-button{
+    margin-top: 1.3rem;
+  }
+  .show-more{
+    padding:0.5rem ;
+  }
+  .filt-container{
+    width: 100%;
+  }
+  .filt-container .doc-filt-1{
+    width: 27%;
+  }
+.choose-div{
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  margin-top: 0.5rem;
+}
+.choose-div p{
+  font-size: 0.8rem;
+  font-family: "Nexa Bold";
+}
+.chose-item{
+  border: 1px solid gray;
+  padding: 0.3rem 0.7rem;
+  margin: 0.2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chose-item i{
+  color: var(--blue-color);
+  padding-left: 0.3rem;
+  /* font-family: "Nexa Light"; */
+  font-weight: 300;
+}
+.choose-row{
+  display: flex;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+}
+.chose-item p::after{
+  content: "x";
+  padding-left: 0.4rem;
+  font-family: "Nexa Light";
+  font-size: 1rem;
+  color: var(--blue-color);
+}
+ 
+.doc-filt-1 .fa-minus{
+  padding-left: 1rem;
+}
+}

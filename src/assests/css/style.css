@@ -1,0 +1,568 @@
+nav{
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.image-1 {
+    height: auto;
+    width: 35%;
+    max-width: 200px;
+}
+
+.box{
+    background-color:var(--primary-color);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box .head-img{
+    display: none;
+}
+.tab-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-list{
+    display: none;
+}
+.nav-btn{
+    display: none;
+}
+.p-1{
+    text-align: center;
+}
+.p-1 p{
+    padding: 5px;
+   
+}
+.input{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 5px 0px;
+}
+
+.btn{
+    width: 120px;
+    height: 35px;
+    margin-top: 7px;
+}
+.btn button{
+    background-color: rgb(8, 8, 36);
+    width: 100%;
+    height: 100%;
+    color: white; 
+}
+.fa-crosshairs{
+    position: absolute;
+    right: 3%;
+    margin-top:10px;
+}
+.fa-map-marker{
+    position: absolute;
+    left: 2%;
+   margin-top: 10px;
+
+}
+
+.h-1 p{
+  padding: 0.1rem 0 0.5rem 0;
+}
+
+
+.part-2 .common-li{
+    margin-top: 0.7rem;
+}
+.ol-1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+counter-reset: li;
+}
+
+.ol-1 li{
+    width:100%;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+}
+
+.ol-1 li::before{
+    content: "0"counter(li);
+    margin-right: 0.5rem;
+}
+li {counter-increment: li}
+#first-li{
+    color: black;
+}
+#first-li::before{
+    color: rgb(159, 218, 241); 
+}
+.fix-consult img{
+    padding: 1rem;
+}
+.fix-consult p{
+    text-align: center;
+    margin-top: 0.1rem;
+}
+/* CSS for task05 start */
+.doctors{
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.tab-doctors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dots-container{
+    display: none;
+}
+.tab-doc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row-1 h4{
+    color: #fff;
+   
+}
+.row-1 p{
+    color: rgba(255, 255, 255, 0.836);
+    margin-top: 0.3rem;
+}
+.row{
+    padding: 0.5rem 0.2rem;
+    
+}
+.row-detail{
+  color: black;
+  background-color: #fff;
+  margin-top: -3px;
+  position: relative;
+  padding: 0.4rem;
+}
+.name{
+    color: rgb(0, 140, 255);
+    font-family: "Nexa Bold";
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: start;
+}
+.row-detail p{
+    font-family: "Nexa Light";
+    font-size: 0.9rem;
+}
+.p-in{
+    display: inline-block;
+    margin-left: 2rem;
+}
+.line{
+    background-color: var(--blue-color);
+    width: 28px;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+}
+.p-in ul li{
+    font-family: 'Nexa Light';
+    font-size: 0.9rem;
+    padding: 0.2rem 0;
+    color: var(--black-color);
+}
+/* CSS for task05 end */
+
+/* CSS for task06 start*/
+.feat-info p{
+  /* text-align: center; */
+  margin: 0.4rem;
+}
+.feat-info h3{
+ padding: 0.5rem 0;
+}
+.img-info{
+    color: var(--white-color);
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    font-weight: bold;
+    background-image: linear-gradient(to top,rgb(3, 2, 20),transparent);
+     padding-left:1rem;
+     height: 100px;
+}
+.img-info-para{
+    position: absolute;
+    bottom: 0.5rem;
+}
+.img-info h6{
+    color: var(--white-color);
+   text-align: start;
+   font-size: 1.12rem;
+}
+.img-info ul li{
+    font-family: 'Nexa Light';
+    font-size: 0.9rem;
+    padding: 0.2rem 0;
+    color: var(--white-color);
+}
+.fimg{
+    position: relative;
+    margin-top: 0.8rem;
+}
+
+/* CSS for task06 end*/
+
+/* CSS for task07 start */
+
+.services{
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--gray-color);
+}
+.serv-flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+.serv-img{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 12px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s-img{
+ width: 80px;
+ height: 80px;
+}
+.serv-img h6{
+    color:rgb(82, 82, 82);
+    font-size: 0.9rem;
+}
+ .serv-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.5rem; */
+    text-align: center;
+} 
+
+.serv-info p{
+    padding: 1rem 0;
+}
+.serv-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px 10px ;
+}
+
+/* CSS for task07 end */
+
+/* Media Query Code For Tablet View */
+
+
+@media only screen and (min-width:768px){
+    .box-part .p-1 p{
+        padding: 0.5rem 0rem;
+    }
+    .tab-input{
+        padding: 0rem 1.5rem;
+    }
+    .fix-data h4{
+        font-size: 1.6rem;
+        line-height: 1.85rem;
+    }
+    .image-1{
+        width: 20%;
+    }
+    /* Start Feature service experimental code */
+    .doctors{
+        display: block;
+        
+    }
+    .row{
+        width: 100%;
+        padding: 0.5rem 0.5rem;
+    }
+    .row-1 p{
+        padding: 1rem 1.2rem 0 1.2rem;
+        margin: 0;
+    }
+    .tab-doctors{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* End Feature service  experimental code */
+
+  .fimg{
+    margin: 0.5rem 0.5rem;
+  }
+    .feature-serv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+   .tab-input{
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+   }
+   .input-h-1{
+    width: 38%;
+   }
+   .input-h-2{
+      width: 60%;
+   }
+   .input-h-1 input{
+       width: 99%;
+   }
+   .input-h-2 input{
+       width: 100%;
+   }
+   .fa-map-marker{
+       left: 5%;
+   }
+   #input-1 {
+    padding-left: 11%;
+   }
+    .btn{
+      margin: 0;
+      height: 40px;
+    }
+    .ol-1{
+        align-items: flex-start;
+    }
+    .ol-1 li{
+        width:50%;
+    }
+    .fix-consult{
+             width: 43%;
+            position: absolute;
+            right: 2rem;;
+    }
+    .part-2 .h-1 p{
+        padding: 1rem 1.5rem;
+    }
+
+    .tab-doc{
+        flex-direction: row;
+      align-items: center;
+    }
+    .row-detail{
+        height: 125px;
+    }
+
+ .serv-grid{
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+
+}
+
+/* Ended Media Query for Tablet View */
+
+/* Started Media query for Desktop view. */
+@media only screen and (min-width:1024px){
+    .feature-serv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+.tab-doctors{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.doctors .row-1{
+    opacity: 1;
+}
+.doctors .row-1 p{
+    padding: 1rem 0;
+}
+    nav{
+     padding: 1rem 3rem;
+    }
+    nav .fa-bars{
+     display: none;
+    }
+    .head-list{
+        display: block;
+    }
+    .head-list ul {
+        display: flex;
+        list-style: none;
+    }
+    .head-list ul li{
+        padding: 0 0.6rem;
+    }
+    .head-list ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-family: "Nexa Light";
+        font-size: 1rem;
+    }
+    .nav-btn{
+        display: block;
+    }
+    .nav-btn button{
+        border: 1px solid var(--second-color);
+        height: 35px;
+        border-radius: 3px;
+        font-size: 0.65rem;
+        padding: 10px;
+        font-weight: 300;
+    }
+    .nav-btn .btn-1{
+      color: var(--second-color);
+      background-color: #fff;
+     
+    }
+    .nav-btn .btn-2{
+     color: #fff;
+     background-color: var(--second-color);
+    }
+ 
+
+.box{
+    align-items: flex-start;
+}
+.p-1{
+    text-align: left;
+    margin: 0;
+    width: 70%;
+}
+
+.h-1 h1{
+ text-align: inherit;
+}
+
+.box-part .p-1 p{
+    padding: 1rem 0;
+    font-weight:600;
+}
+.tab-input{
+    padding: 0;
+    font-size: 1rem;
+    width: 85%; 
+}
+.input-text,.btn{
+    height: 60px;
+    font-size: 1rem;
+}
+.input-h-1 .fa{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+   
+}
+.input-h-1 .fa-map-marker{
+    left: 4%;
+}
+.tab-input .btn{
+    width: 11rem;
+}
+.box{
+    background: url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/img1.jpg") ;
+  background-size: 100% 100%;
+}
+
+.part-2 .h-1 p{
+    padding: 2rem 0;
+}
+.fix-consult p{
+  padding: 1rem 0;
+}
+.fix-consult{
+    width: 42%;
+    position: absolute;
+    right: 4rem;
+}
+.fix-data h4{
+    text-align: center;
+}
+.list ol li{
+    width: 43%;
+    height: 18vh;
+    line-height: 11vh;
+    font-size: 1.6rem;
+}
+.fix-consult h3{
+    margin-bottom: 1rem;
+}
+.tab-doctors{
+    flex-direction: row;
+    position: relative;
+}
+
+.serv-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.serv-img{
+    height: 165px;
+}
+.serv-info{
+    display: block;
+    padding: 0;
+}
+
+/* start code for carousel in desktop view */
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    position: absolute;
+    bottom: -40px;
+  }
+  
+  .dots-container .dot {
+    cursor: pointer;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  
+  .dots-container .dot.active {
+    border: 2px solid var(--primary-color);
+  }
+
+
+/* end code for carousel in desktop view */
+.feat-info p{
+    margin: 0;
+    padding: 1rem 0;
+}
+.fimg {
+    margin: 0.3rem 0.3rem;
+}
+.feature-serv{
+    position: relative;
+}
+
+}
+/* Ended Media query  for Desktop View*/
+
+
+

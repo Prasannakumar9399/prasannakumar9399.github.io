@@ -1,0 +1,20 @@
+.doc-button{
+    background-color: #001435;
+    color: var(--white-color);
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0.6rem 1.3rem;
+}
+.foot-button{
+    background-color: #0099ff;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.hosp-button{
+    background-color: #001435;
+    color: var(--white-color);
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0.6rem 4rem;
+}

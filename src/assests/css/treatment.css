@@ -1,0 +1,10 @@
+body .treatment-head {
+  background-image: linear-gradient(to right, rgba(13, 120, 180, 0.9), rgba(167, 202, 217, 0)), url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/dentist_hero_image.jpg");
+  background-size: 100% 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  body .treatment-head h3, body .treatment-head p {
+    color: var(--white-color); }
