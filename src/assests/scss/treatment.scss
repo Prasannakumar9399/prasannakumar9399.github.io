@@ -13,4 +13,50 @@ body{
              color: var(--white-color);
          }
     }
+    .dentist{
+        h2{
+            margin-bottom: 2rem;
+        }
+        .abt-denst{
+            h5{
+                padding: 1rem 0;
+                text-align: left;
+            }
+            p{
+                text-align: left;
+            }
+            ul{
+                list-style: disc;
+                padding-left:1rem ;
+                li{
+                   
+                    font-size: 1rem;
+                    font-family: "Nexa Light";
+                    color: black;
+                    padding: 1rem 1rem 0rem 1rem;
+                }
+            }
+        }
+        .treat-dis{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 0;
+            .comm-dis{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem 0;
+                h6{
+                    margin-bottom: 0.5rem;
+                }
+                p{
+                    font-size: 1rem;
+                    color: gray;
+                }
+            }
+        }
+    }
 }

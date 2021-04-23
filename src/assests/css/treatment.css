@@ -8,3 +8,40 @@ body .treatment-head {
   align-items: center; }
   body .treatment-head h3, body .treatment-head p {
     color: var(--white-color); }
+
+body .dentist h2 {
+  margin-bottom: 2rem; }
+
+body .dentist .abt-denst h5 {
+  padding: 1rem 0;
+  text-align: left; }
+
+body .dentist .abt-denst p {
+  text-align: left; }
+
+body .dentist .abt-denst ul {
+  list-style: disc;
+  padding-left: 1rem; }
+  body .dentist .abt-denst ul li {
+    font-size: 1rem;
+    font-family: "Nexa Light";
+    color: black;
+    padding: 1rem 1rem 0rem 1rem; }
+
+body .dentist .treat-dis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0; }
+  body .dentist .treat-dis .comm-dis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0; }
+    body .dentist .treat-dis .comm-dis h6 {
+      margin-bottom: 0.5rem; }
+    body .dentist .treat-dis .comm-dis p {
+      font-size: 1rem;
+      color: gray; }
