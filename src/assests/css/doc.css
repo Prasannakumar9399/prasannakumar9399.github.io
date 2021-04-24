@@ -129,7 +129,7 @@ select {
 .checkboxes{
   display: flex;
   align-items: center;
-  padding: 0.1rem;
+  padding: 0.2rem;
 }
 .checkboxes label{
   width: 75%;
@@ -140,20 +140,26 @@ select {
   width: 40px;
 }
 .show-more{
-  display: flex;
+     display: flex;
     align-items: center;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     color: #4aaaec;
+  
 }
 .show-more span{
-  
+  font-size: 1rem;
+  font-family: "Nexa Bold";
   margin-right: 0.4rem;
+  font-size: 0.9rem;
 }
 p{
   text-align: start;
 }
 }
 @media only screen and (min-width:1024px){
+  .show-more{
+    margin-left: 0.7rem;
+  }
   .banner-head{
     left: 4rem;
   }

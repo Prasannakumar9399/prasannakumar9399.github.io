@@ -33,7 +33,10 @@ body{
                     font-size: 1rem;
                     font-family: "Nexa Light";
                     color: black;
-                    padding: 1rem 1rem 0rem 1rem;
+                    padding: 1rem 1rem 0rem 0rem;
+                }
+                li::marker{
+                    color: var(--blue-color);
                 }
             }
         }
@@ -57,6 +60,17 @@ body{
                     color: gray;
                 }
             }
+        }
+        .treat-serv{
+            .treat-serv-1{
+                .treat-serv-head{
+                  h6::before{
+                       content: "------";
+                       color: var(--blue-color);
+                  }
+                }
+            }
+          
         }
     }
 }

@@ -26,7 +26,9 @@ body .dentist .abt-denst ul {
     font-size: 1rem;
     font-family: "Nexa Light";
     color: black;
-    padding: 1rem 1rem 0rem 1rem; }
+    padding: 1rem 1rem 0rem 0rem; }
+  body .dentist .abt-denst ul li::marker {
+    color: var(--blue-color); }
 
 body .dentist .treat-dis {
   display: flex;
@@ -45,3 +47,7 @@ body .dentist .treat-dis {
     body .dentist .treat-dis .comm-dis p {
       font-size: 1rem;
       color: gray; }
+
+body .dentist .treat-serv .treat-serv-1 .treat-serv-head h6::before {
+  content: "------";
+  color: var(--blue-color); }
