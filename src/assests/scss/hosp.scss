@@ -193,7 +193,7 @@
             display: flex;
             .doc-filt-1{
                 display: block;
-                width: 20%;
+                width: 28%;
                 margin-top: 0;
             }
             .hospitals{
@@ -246,6 +246,11 @@
                           }
                         .hosp-icon{
                             .icon-part-1{
+                                .loc-icon{
+                                    i{
+                                        line-height: 2.5rem;
+                                    }
+                                }
                                 width: 75%;
                             }
                         }

@@ -11,33 +11,38 @@
 ul > li{
   padding: 0;
   color: black;
-  /* font-family: 'Times New Roman', Times, serif; */
   font-family: 'Nexa Light';
 }
 .doc-name{
   display: flex;
   padding: 1rem 0;
+  padding-bottom: 0;
 }
 .doc-name h4,span{
   text-align: start;
   color: #4aaaec;
-  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
 }
 .doc-li li{
-  margin-bottom: 1rem;
+  /* line-height: 2.5rem; */
+  line-height: 1.4rem;
   font-size: 1.1rem;
+  margin-top: 1rem;
 }
 .doc-li ul li{
   display: flex;
   align-items: center;
   margin-left: 0.5rem;
+
 }
 .li-icon{
   padding-right: 1rem;
 }
 .li-icon i{
   color: var(--blue-color);
+}
+.fa-map-marker{
+  line-height: 2.5rem;
 }
 .doc{
   margin-top: 1rem;
@@ -51,6 +56,10 @@ ul > li{
 }
 .doc-filt-1{
   display: none;
+}
+.doc-li span{
+  color: var(--dark-blue);
+  font-family: "Nexa Light";
 }
 @media only screen and (min-width:768px){
 select {
@@ -74,6 +83,10 @@ select {
 }
 .doc-li ul li,.doc-btn{
  padding-left:2rem ;
+}
+.doc-li ul li{
+  margin-top: 1rem;
+  line-height: 1.3rem;
 }
 .tab-banner{
   display: block;
@@ -155,6 +168,15 @@ select {
 p{
   text-align: start;
 }
+.doc-li-1{
+  width: 60%;
+}
+.doc-li-2{
+  width: 40%;
+}
+.doc-li-2 ul li{
+  padding-left: 0;
+}
 }
 @media only screen and (min-width:1024px){
   .show-more{
@@ -170,7 +192,8 @@ p{
     color: var(--dark-blue);
   }
   .doc-button{
-    margin-top: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
   .show-more{
     padding:0.5rem ;
@@ -179,17 +202,18 @@ p{
     width: 100%;
   }
   .filt-container .doc-filt-1{
-    width: 27%;
+    width: 32%;
   }
+ 
 .choose-div{
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
   margin-top: 0.5rem;
 }
 .choose-div p{
   font-size: 0.8rem;
   font-family: "Nexa Bold";
+  color: gray;
 }
 .chose-item{
   border: 1px solid gray;
@@ -203,13 +227,10 @@ p{
 .chose-item i{
   color: var(--blue-color);
   padding-left: 0.3rem;
-  /* font-family: "Nexa Light"; */
   font-weight: 300;
 }
 .choose-row{
   display: flex;
-  /* justify-content: center; */
-  /* flex-direction: column; */
 }
 .chose-item p::after{
   content: "x";
