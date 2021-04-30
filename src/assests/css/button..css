@@ -3,9 +3,9 @@
     color: var(--white-color);
     font-size: 1rem;
     text-align: center;
-    padding: 0.6rem 1.5rem;
+    padding: 0.8rem 1.8rem;
     margin: 1rem 0;
-
+    font-family: "Nexa Bold";
 }
 .foot-button{
     background-color: #0099ff;
@@ -19,7 +19,7 @@
     font-size: 1rem;
     text-align: center;
     padding: 0.6rem 3.5rem;
-    font-family: "Nexa Light";
+    font-family: "Nexa Bold";
 }
 .submit-button{
     background-color: #001435;
@@ -39,7 +39,5 @@
         font-size: 1rem;
         text-align: center;
         padding: 1rem 3rem;
-        font-weight: bold;
-        margin-top: 0;
     }
 }

@@ -16,7 +16,7 @@ ul > li{
 .doc-name{
   display: flex;
   padding: 1rem 0;
-  padding-bottom: 0;
+  padding-bottom: 0.5rem;
 }
 .doc-name h4,span{
   text-align: start;
@@ -25,9 +25,12 @@ ul > li{
 }
 .doc-li li{
   /* line-height: 2.5rem; */
-  line-height: 1.4rem;
+  /* line-height: 1.4rem; */
   font-size: 1.1rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+}
+.doc-li li i{
+  line-height: 2rem;
 }
 .doc-li ul li{
   display: flex;
@@ -41,9 +44,9 @@ ul > li{
 .li-icon i{
   color: var(--blue-color);
 }
-.fa-map-marker{
+/* .fa-map-marker{
   line-height: 2.5rem;
-}
+} */
 .doc{
   margin-top: 1rem;
   border: 1px solid gray;
@@ -65,6 +68,9 @@ ul > li{
 select {
   font-family: "Nexa Bold";
 }
+.doc-name{
+  padding: 1.5rem 0;
+}
 .doc-li{
   display: flex;
 }
@@ -73,7 +79,7 @@ select {
 }
 .doc-row-1{
   width: 80%;
-  padding-bottom: 1rem; 
+  /* padding-bottom: 1rem;  */
 }
 .doc-img{
   width: 28%;
@@ -84,9 +90,8 @@ select {
 .doc-li ul li,.doc-btn{
  padding-left:2rem ;
 }
-.doc-li ul li{
-  margin-top: 1rem;
-  line-height: 1.3rem;
+.doc-li ul li i {
+line-height: 2.5rem;
 }
 .tab-banner{
   display: block;
@@ -179,6 +184,15 @@ p{
 }
 }
 @media only screen and (min-width:1024px){
+
+ nav .head-list ul li a{
+   font-family: "Nexa Bold";
+   font-size: 1.1rem;
+   color: var(--dark-blue);
+   opacity: 0.8;
+ }
+
+
   .show-more{
     margin-left: 0.7rem;
   }
@@ -191,9 +205,8 @@ p{
   .banner-head span{
     color: var(--dark-blue);
   }
-  .doc-button{
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+  .doc-btn{
+  padding: 1rem 2rem;
   }
   .show-more{
     padding:0.5rem ;
