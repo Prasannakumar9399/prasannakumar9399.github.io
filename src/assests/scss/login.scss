@@ -76,10 +76,15 @@ body{
        }
 }
 
-@media only screen and (min-width:1024px){
+@media  screen and (min-width :768px) {
     .login-section{
         height: 100vh;
     }
+}
+
+
+@media only screen and (min-width:1024px){
+  
     h5,p{
         text-align: center;
     }

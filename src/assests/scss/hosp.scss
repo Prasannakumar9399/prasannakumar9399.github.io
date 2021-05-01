@@ -1,4 +1,13 @@
 
+nav{
+    .image-1{
+        width: 40%;
+    }
+    .fa{
+        font-size: 1.4rem;
+    }
+}
+
 
 .hospital{
     .main-cont{
@@ -12,10 +21,10 @@
         justify-content: space-between;
         align-items: center;
         ul li{
-            font-size: 1.25rem;
+            font-size: 1.35rem;
             padding: 0;
             color: black;
-            font-family: "Nexa Light";
+            font-family: "Nexa Bold";
         }
         select{
             padding: 0.8rem;
@@ -32,16 +41,26 @@
             justify-content: space-between;
             .hosp-name{
                 display: flex;
+                align-items: center;
                 span{
-                padding: 0.7rem 0;
-                color: var(--blue-color);
+                    height: 3px;
+                    width: 2rem;
+                    background-color: var(--blue-color);
                   }
                 h4{
                     text-align: left;
                     padding: 1rem 0;
-                    font-size: 1.5rem;
+                    // font-size: 1.5rem;
                     color: var(--blue-color);
                     font-family: 'Nexa Bold';
+                    padding-left: 0.4rem;
+                }
+              
+            }
+            #hosp_mar_name{
+                align-items: flex-start ;
+                #marg_span{
+                    margin-top: 1.6rem;
                 }
             }
             .hosp-icon{
@@ -53,6 +72,8 @@
                     span{
                      color:var(--dark-blue);
                      font-family: "Nexa Light";
+                     font-size: 1.1rem;
+                    line-height: 1.4rem;
                     }
                     i{
                         margin-right: 1rem;

@@ -32,14 +32,22 @@ body {
         body .signup-section .signup-form .signup-content input {
           padding: 0.7rem;
           border: 1px solid #cecdcd; }
+        body .signup-section .signup-form .signup-content .select-div {
+          position: relative; }
+          body .signup-section .signup-form .signup-content .select-div i {
+            position: absolute;
+            right: 1rem;
+            top: 1.7rem; }
         body .signup-section .signup-form .signup-content select {
           background-color: var(--white-color);
           font-family: "Nexa Bold";
           border: 1px solid gray;
           opacity: 0.4;
-          font-size: 0.9rem; }
+          font-size: 0.9rem;
+          width: 100%;
+          appearance: none; }
           body .signup-section .signup-form .signup-content select option {
-            font-size: 00.9rem; }
+            font-size: 0.9rem; }
         body .signup-section .signup-form .signup-content .inp-mgn {
           margin-top: 1rem; }
         body .signup-section .signup-form .signup-content button {
@@ -77,4 +85,6 @@ body {
     border: 1px solid gray;
     opacity: 0.4;
     font-size: 1rem;
-    padding: 0.9rem 0.5rem; } }
+    padding: 0.9rem 0.5rem; }
+  body .signup-section .signup-form .signup-content .select-div i {
+    top: 2rem; } }

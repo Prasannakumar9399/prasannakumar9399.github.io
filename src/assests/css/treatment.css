@@ -128,9 +128,10 @@ body .more-services {
         padding-left: 0.5rem; }
 
 body .footer .foot-part-2 .social-media {
+  opacity: 0.9;
   width: 45%; }
   body .footer .foot-part-2 .social-media i {
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
 
 body .footer .foot-part-2 #last {
   font-size: 1.2rem; }
@@ -180,6 +181,8 @@ body .footer .foot-part-2 #last {
       margin: 0 0.5rem; }
   body .footer .foot-part-2 .social-media {
     width: 25%; }
+  body .footer .foot-part-2 #last {
+    font-size: 1rem; }
   body .footer .foot-part-1 .foot-img {
     width: 25%; } }
 
@@ -208,6 +211,6 @@ body .footer .foot-part-2 #last {
   body .more-services {
     padding: 2rem 4rem; }
   body .footer .foot-part-1 .foot-img {
-    width: 16%; }
+    width: 15%; }
   body .footer .foot-part-2 .social-media {
-    width: 16%; } }
+    width: 15%; } }

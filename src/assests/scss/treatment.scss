@@ -177,10 +177,12 @@ body{
     }
     .footer{
         .foot-part-2{
+          
             .social-media{
+                opacity: 0.9;
                 width: 45%;
                 i{
-                    font-size: 1.5rem;
+                    font-size: 1.3rem;
                 }
             }
             #last{
@@ -270,6 +272,10 @@ body{
             .social-media{
                 width: 25%;
             }
+            #last{
+                font-size: 1rem;
+            }
+          
         }
         .foot-part-1{
             .foot-img{
@@ -321,12 +327,12 @@ body{
         .footer{
             .foot-part-1{
                  .foot-img{
-                     width: 16%;
+                     width: 15%;
                  }
             }
             .foot-part-2{
                 .social-media{
-                    width: 16%;
+                    width: 15%;
                 }
             }
         }

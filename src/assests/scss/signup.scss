@@ -1,6 +1,16 @@
 
 $border-color:rgb(206, 205, 205);
 
+
+@mixin arrow_caret{
+    position: relative;
+    i{
+        position: absolute;
+        right :1rem;
+        top:1.7rem;
+    }
+}
+
 body{
     background-color: var(--primary-color);
     position: relative;
@@ -41,17 +51,22 @@ body{
             padding: 0.7rem;
             border: 1px solid $border-color;
         }
+        .select-div{
+         @include arrow_caret;
+        }
             select{
                 background-color: var(--white-color);
                 font-family: "Nexa Bold";
                 border: 1px solid gray;
                 opacity: 0.4;
                 font-size: 0.9rem;
+                width: 100%;
+                appearance: none;
                 option{
-                    font-size: 00.9rem;
+                    font-size: 0.9rem;
                 }
             }
-            
+        
              .inp-mgn{
                  margin-top: 1rem;
              }
@@ -98,7 +113,9 @@ body{
     h5,p{
         text-align: center;
     }
-   body .signup-section .signup-form .signup-content select {
+  
+   body .signup-section .signup-form .signup-content{ 
+   select {
         background-color: var(--white-color);
         font-family: "Nexa Bold";
         border: 1px solid gray;
@@ -106,4 +123,12 @@ body{
         font-size: 1rem;
         padding: 0.9rem 0.5rem;
     }
+    .select-div{
+        i{
+        top: 2rem;   
+        }
+   
+       }
+   }
+  
 }
