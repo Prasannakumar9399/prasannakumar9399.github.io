@@ -35,14 +35,13 @@
                 span{
                 padding: 0.7rem 0;
                 color: var(--blue-color);
-               
-                }
-                p{
+                  }
+                h4{
                     text-align: left;
                     padding: 1rem 0;
                     font-size: 1.5rem;
                     color: var(--blue-color);
-                    font-family: 'Times New Roman', Times, serif;
+                    font-family: 'Nexa Bold';
                 }
             }
             .hosp-icon{
@@ -51,6 +50,10 @@
                     font-size: 1.3rem;
                     display: flex;
                     align-items: center;
+                    span{
+                     color:var(--dark-blue);
+                     font-family: "Nexa Light";
+                    }
                     i{
                         margin-right: 1rem;
                     }
@@ -168,7 +171,10 @@
                     display: flex;
                     align-items: center;
                     .icon-part-1{
-                        width: 40%;
+                        width: 50%;
+                    }
+                    .icon-part-2{
+                        width: 50%;
                     }
                   }
                   .call-btn{
@@ -245,6 +251,7 @@
                                }
                           }
                         .hosp-icon{
+                            align-items: flex-start;
                             .icon-part-1{
                                 .loc-icon{
                                     i{

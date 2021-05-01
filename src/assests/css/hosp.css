@@ -28,17 +28,20 @@
       .hospital .hospitals .hosp-row .hosp-name span {
         padding: 0.7rem 0;
         color: var(--blue-color); }
-      .hospital .hospitals .hosp-row .hosp-name p {
+      .hospital .hospitals .hosp-row .hosp-name h4 {
         text-align: left;
         padding: 1rem 0;
         font-size: 1.5rem;
         color: var(--blue-color);
-        font-family: 'Times New Roman', Times, serif; }
+        font-family: 'Nexa Bold'; }
     .hospital .hospitals .hosp-row .hosp-icon .icon {
       padding: 0 0 1.5rem 1.5rem;
       font-size: 1.3rem;
       display: flex;
       align-items: center; }
+      .hospital .hospitals .hosp-row .hosp-icon .icon span {
+        color: var(--dark-blue);
+        font-family: "Nexa Light"; }
       .hospital .hospitals .hosp-row .hosp-icon .icon i {
         margin-right: 1rem; }
     .hospital .hospitals .hosp-row .hosp-icon i {
@@ -121,7 +124,9 @@
       display: flex;
       align-items: center; }
       .hospital .hospitals .hosp-row .hosp-details .hosp-icon .icon-part-1 {
-        width: 40%; }
+        width: 50%; }
+      .hospital .hospitals .hosp-row .hosp-details .hosp-icon .icon-part-2 {
+        width: 50%; }
     .hospital .hospitals .hosp-row .hosp-details .call-btn {
       text-align: left;
       padding-left: 1.5rem; }
@@ -170,7 +175,9 @@
           grid-column: 4/5;
           grid-row: 2;
           margin-left: -18.2rem; }
-      .hospital .main-cont .hospitals .hosp-row .hosp-details .hosp-icon .icon-part-1 {
-        width: 75%; }
-        .hospital .main-cont .hospitals .hosp-row .hosp-details .hosp-icon .icon-part-1 .loc-icon i {
-          line-height: 2.5rem; } }
+      .hospital .main-cont .hospitals .hosp-row .hosp-details .hosp-icon {
+        align-items: flex-start; }
+        .hospital .main-cont .hospitals .hosp-row .hosp-details .hosp-icon .icon-part-1 {
+          width: 75%; }
+          .hospital .main-cont .hospitals .hosp-row .hosp-details .hosp-icon .icon-part-1 .loc-icon i {
+            line-height: 2.5rem; } }

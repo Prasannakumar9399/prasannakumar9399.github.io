@@ -1,10 +1,10 @@
 body {
   background-color: var(--primary-color);
-  position: relative; }
+  position: relative;
+  height: 100vh; }
   body .login-section {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     width: 100%; }

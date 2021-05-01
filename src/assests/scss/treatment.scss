@@ -1,16 +1,27 @@
+@mixin span_css {
+    height: 3px;
+    width: 1.5rem;
+    background-color: var(--blue-color);
+}
+
+
 body{
     .treatment-head{
         background-image: 
         linear-gradient(to right,rgba(13,120,180,0.9),rgba(167,202,217,0)),
         url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/dentist_hero_image.jpg");
          background-size: 100% 100%;
-         height: 40vh;
+         height: 45vh;
          display: flex;
          flex-direction: column;
          justify-content: center;
          align-items: center;
+         background-size: cover;
          h3,p{
              color: var(--white-color);
+         }
+         h3{
+            margin-bottom: 1rem;
          }
     }
     .dentist{
@@ -45,7 +56,7 @@ body{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 1rem 0;
+            padding: 2rem 0;
             .comm-dis{
                 display: flex;
                 flex-direction: column;
@@ -62,15 +73,262 @@ body{
             }
         }
         .treat-serv{
-            .treat-serv-1{
-                .treat-serv-head{
-                  h6::before{
-                       content: "------";
-                       color: var(--blue-color);
-                  }
+           
+         .treat-service{
+             border: 1px solid rgb(204, 203, 203);
+             border-radius: 0.5rem;
+             .treat-serv-head{
+                 display: flex;
+                 align-items: center;
+                 padding: 1.3rem 0;
+                 span{
+           @include span_css;
+                 }
+                 h6{
+                     padding-left: 0.2rem;
+                     text-align: left;
+                 }
+             }
+             .serv-details{
+                 padding: 0rem 1.3rem 1.3rem 1.3rem;
+                 .serv{
+                     display: flex;
+                     justify-content: space-between;
+                     .serv-1{
+                       font-family: "Nexa Bold";
+                       opacity: 0.8;
+                       hr{
+                           color: rgb(204, 203, 203); ;
+                       }
+                     }
+                     .serv-2{
+                        font-family: "Nexa Bold";
+                        opacity: 0.6;
+                     }
+                 }
+             }
+         }
+       .treat-serv-2{
+           margin-top: 1.3rem;
+       }
+        }
+    }
+    .more-services{
+        padding: 2rem 1rem;
+        background-color: var(--primary-color);
+        .service-head{
+            h3{
+                color: #fff;
+            }
+            .head_icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 1.5rem 0;
+                .icon_1{
+                    margin-right:0.8rem
+                   }
+                .h_icon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    padding: 0.5rem;
+                   width: 2.5rem;
+                   height: 2.5rem;
+                   i{
+                    color: black;
+                    font-size: 0.8rem;
+                   }
+                  
                 }
             }
+        }
+        .card-services{
+            #no_marg_card{
+                margin-top: 0;
+            }
+            .card_serv{
+                display: flex;
+                flex-direction: column;
+                margin-top: 0.5rem;
+             img{
+                border-radius: 10px 10px 0 0;
+             }
+            
+             .card_info{
+                 display: flex;
+                 align-items: center;
+                 padding: 2rem 0;
+                 background-color: #fff;
+                border-radius: 0 0 10px 10px;
+                
+                 span{
+                 @include span_css;
+
+                 }
+                 h4{
+                     padding-left: 0.5rem;
+                 }
+             }
+            }
+        }
+    }
+    .footer{
+        .foot-part-2{
+            .social-media{
+                width: 45%;
+                i{
+                    font-size: 1.5rem;
+                }
+            }
+            #last{
+             font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@media only screen and(min-width:768px){
+    body{
+  
+    .dentist{
+        h2{
+            text-align: left;
+        }
+        .sub-dentist{
+           
+            .sub-dentist-1{
+                .tab_sub_dent{
+                    display: flex;
+                    .abt-denst{
+                        padding-left: 2rem;
+                      h5{
+                          padding-top: 0;
+                      }
+                      p,ul li{
+                        font-size: 1.2rem;
+                      }
+                    }
+                }
+                .treat-dis{
+                    flex-direction: row;
+                    justify-content: space-between;
+                    h6{
+                        font-size: 1.2rem;
+                        margin: 1.3rem 0;
+                    }
+                    .comm-dis{
+                        width: 30%;
+                    }
+                }
+            }
+            .sub-dentist-2{
+                .treat-serv{
+                    display: flex;
+                  justify-content: space-between;
+                  align-items: baseline;
+                }
+                .treat-serv-1{
+                    width: 49%;
+                }
+                .treat-serv-2{
+                    margin: 0;
+                    width: 49%;
+                }
+            }
+        }
+    }
+    .more-services{
+        .service-head{
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+        }
+        .card-services{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+              .card_serv{
+                  margin-top: 0;
+                  .card_info{
+                      h4{
+                          font-size: 1.3rem;
+                          text-align: left;
+                      }
+                  }
+                 
+              }
+              .card_serv_2{
+                margin:0 0.5rem;
+            }
+        }
+    }
+    .footer{
+        .foot-part-2{
+            .social-media{
+                width: 25%;
+            }
+        }
+        .foot-part-1{
+            .foot-img{
+                width: 25%;
+            }
           
+        }
+    }
+}
+}
+@media only screen and (min-width:1024px){
+    body{
+        nav{
+            .head-list ul li a{
+                font-family: "Nexa Bold";
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    opacity: 0.8;
+            }
+        }
+        .treatment-head{
+            align-items: flex-start;
+            padding-left: 4rem;
+            h3,p{
+                text-align: left;
+            }
+        }
+        .dentist{
+            .sub-dentist{
+                display: flex;
+                .sub-dentist-2{
+                    width: 100%;
+                    .treat-serv{
+                        flex-direction: column;
+                        width: 100%;
+                        .treat-serv-1{
+                            margin-bottom: 1rem;
+                        }
+                        .treat-service{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .more-services{
+            padding: 2rem 4rem;
+        }
+        .footer{
+            .foot-part-1{
+                 .foot-img{
+                     width: 16%;
+                 }
+            }
+            .foot-part-2{
+                .social-media{
+                    width: 16%;
+                }
+            }
         }
     }
 }

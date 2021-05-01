@@ -1,13 +1,16 @@
 body .treatment-head {
   background-image: linear-gradient(to right, rgba(13, 120, 180, 0.9), rgba(167, 202, 217, 0)), url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/dentist_hero_image.jpg");
   background-size: 100% 100%;
-  height: 40vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-size: cover; }
   body .treatment-head h3, body .treatment-head p {
     color: var(--white-color); }
+  body .treatment-head h3 {
+    margin-bottom: 1rem; }
 
 body .dentist h2 {
   margin-bottom: 2rem; }
@@ -35,7 +38,7 @@ body .dentist .treat-dis {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0; }
+  padding: 2rem 0; }
   body .dentist .treat-dis .comm-dis {
     display: flex;
     flex-direction: column;
@@ -48,6 +51,163 @@ body .dentist .treat-dis {
       font-size: 1rem;
       color: gray; }
 
-body .dentist .treat-serv .treat-serv-1 .treat-serv-head h6::before {
-  content: "------";
-  color: var(--blue-color); }
+body .dentist .treat-serv .treat-service {
+  border: 1px solid #cccbcb;
+  border-radius: 0.5rem; }
+  body .dentist .treat-serv .treat-service .treat-serv-head {
+    display: flex;
+    align-items: center;
+    padding: 1.3rem 0; }
+    body .dentist .treat-serv .treat-service .treat-serv-head span {
+      height: 3px;
+      width: 1.5rem;
+      background-color: var(--blue-color); }
+    body .dentist .treat-serv .treat-service .treat-serv-head h6 {
+      padding-left: 0.2rem;
+      text-align: left; }
+  body .dentist .treat-serv .treat-service .serv-details {
+    padding: 0rem 1.3rem 1.3rem 1.3rem; }
+    body .dentist .treat-serv .treat-service .serv-details .serv {
+      display: flex;
+      justify-content: space-between; }
+      body .dentist .treat-serv .treat-service .serv-details .serv .serv-1 {
+        font-family: "Nexa Bold";
+        opacity: 0.8; }
+        body .dentist .treat-serv .treat-service .serv-details .serv .serv-1 hr {
+          color: #cccbcb; }
+      body .dentist .treat-serv .treat-service .serv-details .serv .serv-2 {
+        font-family: "Nexa Bold";
+        opacity: 0.6; }
+
+body .dentist .treat-serv .treat-serv-2 {
+  margin-top: 1.3rem; }
+
+body .more-services {
+  padding: 2rem 1rem;
+  background-color: var(--primary-color); }
+  body .more-services .service-head h3 {
+    color: #fff; }
+  body .more-services .service-head .head_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0; }
+    body .more-services .service-head .head_icon .icon_1 {
+      margin-right: 0.8rem; }
+    body .more-services .service-head .head_icon .h_icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 50%;
+      padding: 0.5rem;
+      width: 2.5rem;
+      height: 2.5rem; }
+      body .more-services .service-head .head_icon .h_icon i {
+        color: black;
+        font-size: 0.8rem; }
+  body .more-services .card-services #no_marg_card {
+    margin-top: 0; }
+  body .more-services .card-services .card_serv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem; }
+    body .more-services .card-services .card_serv img {
+      border-radius: 10px 10px 0 0; }
+    body .more-services .card-services .card_serv .card_info {
+      display: flex;
+      align-items: center;
+      padding: 2rem 0;
+      background-color: #fff;
+      border-radius: 0 0 10px 10px; }
+      body .more-services .card-services .card_serv .card_info span {
+        height: 3px;
+        width: 1.5rem;
+        background-color: var(--blue-color); }
+      body .more-services .card-services .card_serv .card_info h4 {
+        padding-left: 0.5rem; }
+
+body .footer .foot-part-2 .social-media {
+  width: 45%; }
+  body .footer .foot-part-2 .social-media i {
+    font-size: 1.5rem; }
+
+body .footer .foot-part-2 #last {
+  font-size: 1.2rem; }
+
+@media only screen and (min-width: 768px) {
+  body .dentist h2 {
+    text-align: left; }
+  body .dentist .sub-dentist .sub-dentist-1 .tab_sub_dent {
+    display: flex; }
+    body .dentist .sub-dentist .sub-dentist-1 .tab_sub_dent .abt-denst {
+      padding-left: 2rem; }
+      body .dentist .sub-dentist .sub-dentist-1 .tab_sub_dent .abt-denst h5 {
+        padding-top: 0; }
+      body .dentist .sub-dentist .sub-dentist-1 .tab_sub_dent .abt-denst p, body .dentist .sub-dentist .sub-dentist-1 .tab_sub_dent .abt-denst ul li {
+        font-size: 1.2rem; }
+  body .dentist .sub-dentist .sub-dentist-1 .treat-dis {
+    flex-direction: row;
+    justify-content: space-between; }
+    body .dentist .sub-dentist .sub-dentist-1 .treat-dis h6 {
+      font-size: 1.2rem;
+      margin: 1.3rem 0; }
+    body .dentist .sub-dentist .sub-dentist-1 .treat-dis .comm-dis {
+      width: 30%; }
+  body .dentist .sub-dentist .sub-dentist-2 .treat-serv {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
+  body .dentist .sub-dentist .sub-dentist-2 .treat-serv-1 {
+    width: 49%; }
+  body .dentist .sub-dentist .sub-dentist-2 .treat-serv-2 {
+    margin: 0;
+    width: 49%; }
+  body .more-services .service-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  body .more-services .card-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    body .more-services .card-services .card_serv {
+      margin-top: 0; }
+      body .more-services .card-services .card_serv .card_info h4 {
+        font-size: 1.3rem;
+        text-align: left; }
+    body .more-services .card-services .card_serv_2 {
+      margin: 0 0.5rem; }
+  body .footer .foot-part-2 .social-media {
+    width: 25%; }
+  body .footer .foot-part-1 .foot-img {
+    width: 25%; } }
+
+@media only screen and (min-width: 1024px) {
+  body nav .head-list ul li a {
+    font-family: "Nexa Bold";
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    opacity: 0.8; }
+  body .treatment-head {
+    align-items: flex-start;
+    padding-left: 4rem; }
+    body .treatment-head h3, body .treatment-head p {
+      text-align: left; }
+  body .dentist .sub-dentist {
+    display: flex; }
+    body .dentist .sub-dentist .sub-dentist-2 {
+      width: 100%; }
+      body .dentist .sub-dentist .sub-dentist-2 .treat-serv {
+        flex-direction: column;
+        width: 100%; }
+        body .dentist .sub-dentist .sub-dentist-2 .treat-serv .treat-serv-1 {
+          margin-bottom: 1rem; }
+        body .dentist .sub-dentist .sub-dentist-2 .treat-serv .treat-service {
+          width: 100%; }
+  body .more-services {
+    padding: 2rem 4rem; }
+  body .footer .foot-part-1 .foot-img {
+    width: 16%; }
+  body .footer .foot-part-2 .social-media {
+    width: 16%; } }

@@ -6,7 +6,7 @@ nav {
   padding: 1rem; }
   nav .image-1 {
     height: auto;
-    width: 35%;
+    width: 28%;
     max-width: 200px; }
   nav .head-list {
     display: none; }
@@ -213,7 +213,9 @@ nav {
   nav {
     padding: 1rem 2rem; }
     nav .image-1 {
-      width: 16%; }
+      width: 23%; }
+    nav .fa {
+      font-size: 1.5rem; }
   .box-part .p-1 p {
     padding: 0.5rem 0rem; }
   .fix-data h4 {

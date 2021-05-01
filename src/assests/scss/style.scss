@@ -7,7 +7,7 @@ nav{
 
     .image-1 {
         height: auto;
-        width: 35%;
+        width: 28%;
         max-width: 200px;
     }
     .head-list{
@@ -303,8 +303,13 @@ nav{
     nav{
         padding: 1rem 2rem;
         .image-1{
-            width: 16%;
+            width: 23%;
         }
+        
+            .fa{
+                font-size: 1.5rem;
+            }
+        
     }
     .box-part{
         .p-1{
@@ -409,6 +414,7 @@ nav{
        
     }
 }
+
 
 @media only screen and (min-width:1024px){
     .feature{
