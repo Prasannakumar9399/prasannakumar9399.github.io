@@ -1,0 +1,71 @@
+body {
+  background-color: var(--primary-color);
+  position: relative; }
+  body .appoint-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    body .appoint-section .appoint-form {
+      background-color: var(--white-color);
+      padding: 1rem 0;
+      width: 100%;
+      max-width: 500px; }
+      body .appoint-section .appoint-form h5 {
+        padding: 0.5rem 0;
+        color: var(--blue-color); }
+      body .appoint-section .appoint-form .appoint-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        position: relative; }
+        body .appoint-section .appoint-form .appoint-content .submit-button {
+          padding: 1rem 1rem;
+          font-size: 1.1rem;
+          letter-spacing: 0.3rem;
+          position: relative;
+          margin-top: 0.8rem; }
+          body .appoint-section .appoint-form .appoint-content .submit-button i {
+            color: var(--white-color);
+            font-size: 1rem;
+            position: absolute;
+            right: 1rem;
+            top: 32%; }
+        body .appoint-section .appoint-form .appoint-content span {
+          font-size: 1.1rem;
+          line-height: 1.8rem;
+          font-family: "Nexa Bold";
+          display: block;
+          margin-bottom: 0.3rem; }
+        body .appoint-section .appoint-form .appoint-content input[type="text"] {
+          border: 3px solid #cecdcd;
+          padding: 0.5rem 1rem; }
+        body .appoint-section .appoint-form .appoint-content input[type="file"] {
+          padding: 0;
+          font-family: sans-serif;
+          font-weight: 500; }
+        body .appoint-section .appoint-form .appoint-content ::placeholder {
+          font-family: "Nexa Bold"; }
+        body .appoint-section .appoint-form .appoint-content .radio_btn input[type="radio"] {
+          width: fit-content; }
+        body .appoint-section .appoint-form .appoint-content .content {
+          margin-top: 0.8rem; }
+          body .appoint-section .appoint-form .appoint-content .content .r_btn {
+            line-height: 2rem; }
+        body .appoint-section .appoint-form .appoint-content .content_1 {
+          margin-top: 0.5rem; }
+        body .appoint-section .appoint-form .appoint-content textarea {
+          width: 100%; }
+  body .last-p {
+    font-family: 'Nexa Bold';
+    font-size: 0.9rem;
+    position: relative;
+    width: 100%;
+    padding-bottom: 1rem; }
+
+@media screen and (min-width: 1024px) {
+  body .appoint-form h5 {
+    text-align: center; }
+  body .last-p {
+    text-align: center; } }

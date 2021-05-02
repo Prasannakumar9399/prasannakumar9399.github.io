@@ -8,7 +8,9 @@
     "compile:hosp":"node-sass ./src/assests/scss/hosp.scss  ./src/assests/css/hosp.css -w",
     "compile:login":"node-sass ./src/assests/scss/login.scss  ./src/assests/css/login.css -w",
     "compile:sign":"node-sass ./src/assests/scss/signup.scss  ./src/assests/css/signup.css -w",
-    "compile:treatment":"node-sass ./src/assests/scss/treatment.scss  ./src/assests/css/treatment.css -w"
+    "compile:treatment":"node-sass ./src/assests/scss/treatment.scss  ./src/assests/css/treatment.css -w",
+    "compile:appointment":"node-sass ./src/assests/scss/appointment.scss  ./src/assests/css/appointment.css -w"
+
   },
   "repository": {
     "type": "git",

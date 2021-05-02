@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./reset.css">
+
+    <link rel="stylesheet" type="text/css" href="assests/css/button..css">
+    <link rel="stylesheet" type="text/css" href="./assests/css/test.css">
+    <link rel="stylesheet" type="text/css" href="./assests/css/footer1.css">
+    <link rel="stylesheet" type="text/css" href="./assests/css/footer2.css">
+    <link rel="stylesheet" type="text/css" href="./assests/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="./assests/css/appointment.css">
+</head>
+
+<body>
+    <nav>
+        <div class="image-1">
+            <img src="https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/Logo.jpg">
+        </div>
+        <div class="head-list">
+            <ul>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Hospitals</a></li>
+                <li><a href="#">Treatment</a></li>
+                <li><a href="#">Other Services</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-btn">
+            <button class="btn-1">Login/Sign Up</button>
+            <button class="btn-2">Get a Quote </button>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </nav>
+    <section class="appoint-section">
+        <div class="appoint-form">
+            <h5>Book An Appointment</h5>
+            <hr>
+
+            <div class="appoint-content">
+                <div class="content_1 content">
+                    <span>Select Appointment Data*</span>
+                    <input type="text" placeholder="dd / mm / yyyy">
+                </div>
+                <div class="content_2 content">
+                    <span>Time Interval*</span>
+                    <div class="time_radio radio_btn">
+                        <div class="r_btn r-btn_1">
+                            <input type="radio" id="morning" name="time" value="morn">
+                            <label for="morning">Morning</label><br>
+                        </div>
+                        <div class="r_btn r_btn_2">
+                            <input type="radio" id="afternoon" name="time" value="aftern">
+                            <label for="afternoon">Afternoon</label><br>
+                        </div>
+                        <div class="r_btn r_btn_3">
+                            <input type="radio" id="evening" name="time" value="even">
+                            <label for="evening">Evening</label><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_3 content">
+                    <span>Appointment Status / Urgency*</span>
+                    <div class="status_radio radio_btn">
+                        <div class="r_btn r_btn_4">
+                            <input type="radio" id="routine" name="status" value="routine">
+                            <label for="routine">Routine Check-up</label><br>
+                        </div>
+                        <div class="r_btn r_btn_5">
+                            <input type="radio" id="non_urgent" name="status" value="non_urgent">
+                            <label for="non_urgent">Non Urgent Check-up</label><br>
+                        </div>
+                        <div class="r_btn r_btn_6">
+                            <input type="radio" id="urgent" name="status" value="urgent">
+                            <label for="urgent">Urgent Check-up</label><br>
+                        </div>
+                        <div class="r_btn r_btn_7">
+                            <input type="radio" id="surgical" name="status" value="surgical">
+                            <label for="surgical">Surgical Appointment</label><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_4 content">
+                    <span>Upload Previous Health Record</span>
+                    <input type="file">
+                </div>
+                <div class="content_5 content">
+                    <span>Appointment Details</span>
+                    <textarea rows="5"></textarea>
+                </div>
+                <button class="submit-button" class="inp-mgn">BOOK APPOINTMENT<i class="fa fa-arrow-right"
+                        aria-hidden="true"></i></button>
+            </div>
+
+        </div>
+
+    </section>
+    <p class="last-p">All Right Reserved @ Tvastra 2020</p>
+</body>
+
+</html>

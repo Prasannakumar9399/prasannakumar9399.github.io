@@ -1,0 +1,120 @@
+
+$border-color:rgb(206, 205, 205);
+
+
+@mixin arrow_caret{
+    position: relative;
+    i{
+        position: absolute;
+        right :1rem;
+        top:1.7rem;
+    }
+}
+
+body{
+    background-color: var(--primary-color);
+    position: relative;
+    .appoint-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+       .appoint-form{
+        background-color: var(--white-color);
+        padding: 1rem 0;
+        width: 100%;
+        max-width: 500px;
+          
+        h5{
+            padding: 0.5rem 0;
+            color: var(--blue-color);
+        }
+        .appoint-content{
+            display: flex;
+             flex-direction: column;
+              padding: 0 1rem;
+              position: relative;
+         
+              .submit-button{
+               
+               padding: 1rem 1rem;
+               font-size: 1.1rem;
+               letter-spacing: 0.3rem; 
+               position: relative;
+               margin-top: 0.8rem;
+               i{
+                color: var(--white-color);
+                font-size: 1rem;
+                position: absolute;
+                right: 1rem;
+                top: 32%;
+            }
+            }
+            span{
+                font-size: 1.1rem;
+                line-height: 1.8rem;
+                font-family: "Nexa Bold";
+                display: block;
+                margin-bottom: 0.3rem;
+            }
+            input[type="text"]{
+                border: 3px solid $border-color;
+                padding: 0.5rem 1rem;
+                
+            }
+            input[type="file"]{
+                padding: 0;
+                font-family: sans-serif;
+                font-weight: 500;
+            }
+            ::placeholder{
+                   font-family: "Nexa Bold";
+            }
+
+            .radio_btn{
+                input[type="radio"]{
+                    width: fit-content;
+                }
+            }
+            .content{
+                margin-top: 0.8rem;
+
+                .r_btn{
+             line-height: 2rem;
+                }
+            }
+         .content_1{
+             margin-top: 0.5rem;
+         }
+            textarea{
+              width: 100%;
+            }
+            }
+    
+     
+       }
+     
+    }
+    .last-p{
+        font-family: 'Nexa Bold';
+        font-size: 0.9rem;
+        position: relative;
+        width: 100%;
+        padding-bottom: 1rem;
+       }
+}
+
+@media screen and (min-width:1024px){
+    body{
+        .appoint-form{
+        h5{
+            text-align: center;
+        }
+    }
+    .last-p{
+        text-align: center;
+    }
+    }
+}
