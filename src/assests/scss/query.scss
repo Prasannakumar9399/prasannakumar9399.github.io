@@ -1,42 +1,54 @@
+
+$border-color:rgb(206, 205, 205);
+
+
+@mixin arrow_caret{
+    position: relative;
+    i{
+        position: absolute;
+        right :1rem;
+        top:1.7rem;
+    }
+}
+
 body{
     background-color: var(--primary-color);
     position: relative;
-    height: 100vh;
-    .login-section{
+    .query-section{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
         
-       .login-form{
+       .query-form{
         background-color: var(--white-color);
-        padding: 1rem 0;
+        padding: 1rem 0rem;
         width: 100%;
-        max-width: 500px;
+        ::placeholder{
+            font-family: "Nexa Bold";
+            opacity: 0.6;
+          }
         h5{
-            padding: 0.5rem 0;
             color: var(--blue-color);
+            padding: 1.5rem 0;
         }
-        .log-content{
+        .query-content{
             display: flex;
              flex-direction: column;
-              padding: 1rem;
               position: relative;
-              .fa-question-circle{
-                position: absolute;
-                right: 2rem;
-                font-size: 1.5rem;
-                top: 2rem;
-                opacity: 0.5;
+              padding: 1rem;
+              padding-top: 0;
+
+              #name_input{
+                  margin-top: 0.5rem;
               }
-           input{
-            padding: 1.2rem;
-            border: 1px solid gray;
-             }
-             .inp-mgn{
-                 margin-top: 1rem;
-             }
+           input,textarea{
+            padding: 0.7rem;
+            border: 1px solid $border-color;
+            margin-top: 1rem;
+        }
+      
            
              button{
                 margin-top: 1rem;
@@ -75,17 +87,24 @@ body{
         padding-bottom: 1rem;
        }
 }
+@media only screen and (min-width:768px){
 
-@media  screen and (min-width :768px) {
-    // .login-section{
-    //     height: 100vh;
-    // }
-}
+    body .query-section .query-form {
+       width: 430px;}
 
-
-@media only screen and (min-width:1024px){
   
+}
+@media only screen and (min-width:1024px){
     h5,p{
         text-align: center;
     }
+  nav{
+      .image-1{
+          width: 150px;
+      }
+  }
+
+    body .query-section .query-form {
+        width: 800px;}
+  
 }

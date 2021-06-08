@@ -1,0 +1,574 @@
+body nav .image-1 {
+  width: 23%; }
+
+body .back_page {
+  display: flex;
+  flex-direction: column; }
+  body .back_page .back_page_1 {
+    position: relative;
+    height: 75vh;
+    display: flex;
+    justify-content: center; }
+    body .back_page .back_page_1 img {
+      object-position: left; }
+    body .back_page .back_page_1 .back_page_1_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      padding: 2rem 1rem;
+      height: 236px; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        body .back_page .back_page_1 .back_page_1_info {
+          height: 200px;
+          align-items: flex-start;
+          left: 2rem;
+          padding: 2rem 0; } }
+      @media (min-width: 1024px) {
+        body .back_page .back_page_1 .back_page_1_info {
+          height: 200px;
+          align-items: flex-start;
+          left: 6rem;
+          padding: 2rem 0; } }
+      body .back_page .back_page_1 .back_page_1_info .btn button {
+        background-color: var(--blue-color);
+        border-radius: 5px;
+        padding: 1.1rem 0.8rem;
+        color: #fff;
+        line-height: 0; }
+      body .back_page .back_page_1 .back_page_1_info .span_info {
+        text-align: center; }
+        body .back_page .back_page_1 .back_page_1_info .span_info span {
+          font-family: "Nexa Light";
+          line-height: 1.3rem; }
+  body .back_page .back_page_2 {
+    display: flex;
+    justify-content: center;
+    height: 1353px;
+    background-image: linear-gradient(to bottom, #b5d6e9, white); }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      body .back_page .back_page_2 {
+        height: 530px; } }
+    @media (min-width: 1024px) {
+      body .back_page .back_page_2 {
+        height: 400px; } }
+    body .back_page .back_page_2 .tvastra_plan {
+      position: absolute;
+      top: 300px;
+      background: #fff;
+      margin: 0 1rem;
+      border-radius: 5px; }
+      body .back_page .back_page_2 .tvastra_plan .tvastra_plan_head {
+        border-bottom: 1px dotted gray;
+        text-align: center;
+        padding: 2rem 0rem;
+        margin: 0 1rem; }
+        body .back_page .back_page_2 .tvastra_plan .tvastra_plan_head h4 {
+          margin-bottom: 1rem; }
+          @media screen and (min-width: 1024px) {
+            body .back_page .back_page_2 .tvastra_plan .tvastra_plan_head h4 {
+              text-align: center; } }
+        body .back_page .back_page_2 .tvastra_plan .tvastra_plan_head span {
+          font-family: 'Nexa Light';
+          line-height: 1.4rem; }
+      body .back_page .back_page_2 .tvastra_plan .all_plans .plan {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem; }
+        body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_title {
+          padding: 1rem;
+          border-bottom: 1px dotted gray;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          @media (min-width: 768px) and (max-width: 930px) {
+            body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_title {
+              height: 100px; } }
+        body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_body ul {
+          text-align: center;
+          padding: 2rem;
+          padding-bottom: 3rem; }
+          body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_body ul li {
+            padding: 0;
+            font-size: 1rem;
+            line-height: 1.3rem;
+            font-family: "Nexa Light";
+            color: black;
+            padding-bottom: 1rem; }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_body {
+            height: 345px; } }
+        @media (min-width: 1024px) {
+          body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_body {
+            height: 250px; } }
+        body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_footer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_footer .plan_price {
+            display: flex; }
+            body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_footer .plan_price span {
+              font-family: 'Nexa Light';
+              line-height: 1.4rem;
+              font-family: "Nexa Bold"; }
+          body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_footer a {
+            font-size: 1rem;
+            color: var(--blue-color);
+            font-family: "Nexa Bold";
+            padding: 1rem 0; }
+          body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_footer button {
+            background-color: var(--blue-color);
+            border-radius: 5px;
+            padding: 1.1rem 0.8rem;
+            color: #fff;
+            line-height: 0;
+            font-family: "Nexa Bold"; }
+      body .back_page .back_page_2 .tvastra_plan .all_plans .advance_plan {
+        background-image: linear-gradient(to bottom, #b5d6e9, white);
+        position: relative; }
+        body .back_page .back_page_2 .tvastra_plan .all_plans .advance_plan .popular_btn {
+          position: absolute;
+          top: -13px;
+          background-color: green;
+          color: #fff;
+          padding: 0.4rem 0.7rem;
+          border-radius: 13px;
+          font-size: 0.7rem;
+          font-family: 'Nexa Light'; }
+      body .back_page .back_page_2 .tvastra_plan .all_plans .basic_plan {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem; }
+
+body .tvastra_review .tvst_review_head p {
+  padding: 1.5rem 0; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body .tvastra_review .review_star {
+    display: flex;
+    justify-content: space-between; } }
+
+body .tvastra_review .review_star .review_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0272b1; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body .tvastra_review .review_star .review_1 {
+      flex: 1; } }
+  body .tvastra_review .review_star .review_1 .fa, body .tvastra_review .review_star .review_1 h1 {
+    color: #0272b1; }
+  body .tvastra_review .review_star .review_1 h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      body .tvastra_review .review_star .review_1 h1 {
+        font-size: 3.5rem;
+        line-height: 3.7rem; } }
+  body .tvastra_review .review_star .review_1 .star {
+    margin: 0.3rem 0; }
+    body .tvastra_review .review_star .review_1 .star i {
+      font-size: 0.8rem; }
+  body .tvastra_review .review_star .review_1 span {
+    font-family: 'Nexa Light';
+    line-height: 1.4rem;
+    color: #0272b1; }
+
+body .tvastra_review .review_star .review_2 {
+  justify-content: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body .tvastra_review .review_star .review_2 {
+      flex: 1;
+      align-items: flex-start; } }
+  body .tvastra_review .review_star .review_2 .star_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 260px;
+    margin-top: 1rem; }
+    body .tvastra_review .review_star .review_2 .star_bar .side {
+      font-size: 0.9rem;
+      font-family: 'Nexa Bold';
+      color: #0272b1; }
+    body .tvastra_review .review_star .review_2 .star_bar .bar_container {
+      height: 1rem;
+      width: 84%;
+      display: flex;
+      border-radius: 10px;
+      background-color: var(--anchr-color); }
+      body .tvastra_review .review_star .review_2 .star_bar .bar_container .middle {
+        border-radius: 10px; }
+    body .tvastra_review .review_star .review_2 .star_bar .bar_5 .middle {
+      width: 10%;
+      background-color: #0272b1; }
+    body .tvastra_review .review_star .review_2 .star_bar .bar_4 .middle {
+      width: 20%;
+      background-color: #0272b1; }
+    body .tvastra_review .review_star .review_2 .star_bar .bar_3 .middle {
+      width: 30%;
+      background-color: #0272b1; }
+    body .tvastra_review .review_star .review_2 .star_bar .bar_2 .middle {
+      width: 40%;
+      background-color: #0272b1; }
+    body .tvastra_review .review_star .review_2 .star_bar .bar_1 .middle {
+      width: 60%;
+      background-color: #0272b1; }
+
+body .tvastra_review .add_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+  grid-gap: 1rem; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body .tvastra_review .add_info {
+      grid-template-columns: 1fr 1fr 1fr 1fr; } }
+  body .tvastra_review .add_info .add_info_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0272b1;
+    text-align: center; }
+    body .tvastra_review .add_info .add_info_card i {
+      color: #0272b1;
+      font-size: 2.2rem; }
+    body .tvastra_review .add_info .add_info_card h5 {
+      color: #0272b1;
+      padding: 0.5rem 0; }
+    body .tvastra_review .add_info .add_info_card span {
+      font-family: "Nexa Light";
+      line-height: 1.3rem; }
+  body .tvastra_review .add_info .add_info_4 .doct_appoint {
+    border: 1px solid var(--blue-color);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .tvastra_review .add_info .add_info_4 .doct_appoint span {
+      font-size: 0.5rem;
+      line-height: 0.5rem; }
+
+body .benefit_plus_member .ben_pls_mem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  body .benefit_plus_member .ben_pls_mem p {
+    padding-bottom: 0.8rem; }
+  body .benefit_plus_member .ben_pls_mem span {
+    width: 100%;
+    max-width: 285px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #CAE7FF; }
+
+@media (min-width: 768px) {
+  body .benefit_plus_member .beneft_member {
+    display: flex; } }
+
+@media (min-width: 1024px) {
+  body .benefit_plus_member .beneft_member {
+    justify-content: space-between; } }
+
+@media (min-width: 768px) {
+  body .benefit_plus_member .beneft_member .benefit_1 {
+    flex: 1;
+    padding-right: 2rem; } }
+
+@media (min-width: 1024px) {
+  body .benefit_plus_member .beneft_member .benefit_1 {
+    flex: 0.8; } }
+
+body .benefit_plus_member .beneft_member .benefit_1 h3 {
+  padding-bottom: 1.5rem;
+  padding-top: 1rem; }
+  @media (min-width: 768px) {
+    body .benefit_plus_member .beneft_member .benefit_1 h3 {
+      text-align: left; } }
+
+body .benefit_plus_member .beneft_member .benefit_1 .ben_mem_para {
+  padding: 0 1.2rem; }
+  @media (min-width: 768px) {
+    body .benefit_plus_member .beneft_member .benefit_1 .ben_mem_para {
+      padding-left: 0; } }
+  body .benefit_plus_member .beneft_member .benefit_1 .ben_mem_para .ben_para {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 1.2rem; }
+    body .benefit_plus_member .beneft_member .benefit_1 .ben_mem_para .ben_para i {
+      font-size: 1.3rem;
+      color: var(--blue-color); }
+    body .benefit_plus_member .beneft_member .benefit_1 .ben_mem_para .ben_para p {
+      text-align: left;
+      font-size: 1rem;
+      padding-left: 1rem; }
+
+body .benefit_plus_member .beneft_member .benefit_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body .benefit_plus_member .beneft_member .benefit_2 {
+      flex: 1; } }
+  body .benefit_plus_member .beneft_member .benefit_2 span {
+    font-family: 'Nexa Light';
+    line-height: 1.4rem; }
+  body .benefit_plus_member .beneft_member .benefit_2 h4 {
+    padding-bottom: 1.5rem; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      body .benefit_plus_member .beneft_member .benefit_2 h4 {
+        padding-top: 1rem; } }
+  body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem; }
+    body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp {
+      height: 120px;
+      padding: 1rem; }
+      body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp img {
+        object-fit: contain; }
+    body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_1 {
+      border: 2px solid #CAE7FF;
+      border-left: 0;
+      border-top: 0; }
+    body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_2 {
+      border: 2px solid #CAE7FF;
+      border-left: 0;
+      border-top: 0;
+      border-right: 0; }
+    body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_3 {
+      border: 2px solid #CAE7FF;
+      border-left: 0;
+      border-top: 0; }
+    body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_4 {
+      border: 2px solid #CAE7FF;
+      border-left: 0;
+      border-top: 0;
+      border-right: 0; }
+    body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_5 {
+      border: 2px solid #CAE7FF;
+      border-left: 0;
+      border-top: 0;
+      border-bottom: 0; }
+
+body .three_services {
+  padding-top: 0; }
+  body .three_services p {
+    font-size: 1rem; }
+  body .three_services .tvs_services {
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      body .three_services .tvs_services {
+        padding-bottom: 2rem;
+        justify-content: space-between; } }
+    @media (min-width: 1024px) {
+      body .three_services .tvs_services {
+        padding-bottom: 4rem; } }
+    @media (min-width: 768px) {
+      body .three_services .tvs_services .tvs_services_1 {
+        width: 53%; } }
+    @media (min-width: 1024px) {
+      body .three_services .tvs_services .tvs_services_1 {
+        padding-right: 7rem;
+        width: 63%; } }
+    body .three_services .tvs_services .tvs_services_1 h4 {
+      padding: 2rem 0; }
+      @media (min-width: 768px) {
+        body .three_services .tvs_services .tvs_services_1 h4 {
+          padding: 0;
+          padding-bottom: 2rem;
+          text-align: left; } }
+    body .three_services .tvs_services .tvs_services_1 #rmv_padd {
+      padding-top: 0; }
+    body .three_services .tvs_services .tvs_services_1 .ul_tvs {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-bottom: 1rem; }
+      body .three_services .tvs_services .tvs_services_1 .ul_tvs i {
+        font-size: 1.3rem;
+        color: var(--blue-color);
+        margin-right: 1rem; }
+      body .three_services .tvs_services .tvs_services_1 .ul_tvs p {
+        text-align: left;
+        font-family: 'Nexa Light';
+        line-height: 1.4rem; }
+    body .three_services .tvs_services .tvs_services_2 img {
+      border-radius: 10px; }
+    @media (min-width: 768px) {
+      body .three_services .tvs_services .tvs_services_2 {
+        width: 44%; } }
+    @media (min-width: 1024px) {
+      body .three_services .tvs_services .tvs_services_2 {
+        width: 28%; } }
+  @media (min-width: 768px) {
+    body .three_services .one_tvastra_services {
+      flex-direction: row-reverse; } }
+  @media (min-width: 768px) {
+    body .three_services .two_tvastra_services {
+      flex-direction: row; } }
+  body .three_services .three_tvastra_services .tvs_services_2 p {
+    font-family: "Nexa Bold";
+    margin-top: 2rem;
+    font-size: 0.9rem; }
+    @media (min-width: 768px) {
+      body .three_services .three_tvastra_services .tvs_services_2 p {
+        text-align: left; } }
+  @media (min-width: 768px) {
+    body .three_services .three_tvastra_services {
+      flex-direction: row-reverse; } }
+
+body .disease_profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  body .disease_profile .disease_profile_1 {
+    padding: 0 2rem 2rem 2rem;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%; }
+    @media (min-width: 768px) {
+      body .disease_profile .disease_profile_1 {
+        padding-top: 2rem; } }
+    @media (min-width: 1024px) {
+      body .disease_profile .disease_profile_1 {
+        grid-template-columns: repeat(4, 1fr); } }
+    body .disease_profile .disease_profile_1 .dis_prof {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 220px;
+      box-shadow: 5px -5px 12px 2px #e5e2e2; }
+      body .disease_profile .disease_profile_1 .dis_prof h6 {
+        font-size: 1.1rem;
+        line-height: 1.5rem; }
+      body .disease_profile .disease_profile_1 .dis_prof p {
+        font-size: 0.9rem; }
+      body .disease_profile .disease_profile_1 .dis_prof .dis_img {
+        width: 60px; }
+  body .disease_profile .dot_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28px; }
+    body .disease_profile .dot_container .dot {
+      width: 10px;
+      height: 10px;
+      background-color: #0272b1;
+      border-radius: 50%; }
+    body .disease_profile .dot_container .dot_2 {
+      background-color: #e4e2e2; }
+
+body .love_tvastra .love_tvs_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.2rem; }
+  body .love_tvastra .love_tvs_head .love_btn button {
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    padding: 1.1rem 0.8rem;
+    color: #fff;
+    line-height: 0;
+    margin-left: 0.5rem; }
+
+body .love_tvastra .love_tvastra_plan {
+  display: grid;
+  grid-gap: 10px; }
+  @media (min-width: 768px) {
+    body .love_tvastra .love_tvastra_plan {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1024px) {
+    body .love_tvastra .love_tvastra_plan {
+      grid-template-columns: repeat(3, 1fr); } }
+  body .love_tvastra .love_tvastra_plan .lov_tvs_pln {
+    box-shadow: 3px -1px 13px 0px #e5e2e2;
+    padding: 1rem 1rem; }
+    body .love_tvastra .love_tvastra_plan .lov_tvs_pln .lov_tvs_para {
+      padding-bottom: 0.8rem; }
+      body .love_tvastra .love_tvastra_plan .lov_tvs_pln .lov_tvs_para p {
+        text-align: left;
+        font-family: "Nexa Bold";
+        font-size: 0.9rem; }
+    body .love_tvastra .love_tvastra_plan .lov_tvs_pln .lov_tvs_detail {
+      display: flex;
+      /* justify-content: center; */
+      align-items: center; }
+      body .love_tvastra .love_tvastra_plan .lov_tvs_pln .lov_tvs_detail .lov_detail_1 img {
+        border-radius: 50%;
+        width: 70px;
+        height: 72px; }
+      body .love_tvastra .love_tvastra_plan .lov_tvs_pln .lov_tvs_detail .lov_detail_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 2rem; }
+        body .love_tvastra .love_tvastra_plan .lov_tvs_pln .lov_tvs_detail .lov_detail_2 h6 {
+          text-align: left;
+          font-size: 1.1rem;
+          line-height: 2.3rem; }
+        body .love_tvastra .love_tvastra_plan .lov_tvs_pln .lov_tvs_detail .lov_detail_2 .plan_btn button {
+          background-color: #CAE7FF;
+          border-radius: 5px;
+          color: #0272b1;
+          font-size: 0.7rem;
+          font-family: "Nexa Bold"; }
+
+body .freq_ask_ques .freq_body .freq_drpdwn .freq_drpdwn_btn {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  justify-content: space-between; }
+  body .freq_ask_ques .freq_body .freq_drpdwn .freq_drpdwn_btn .btn_part_1 h5 {
+    text-align: left;
+    color: #0272b1; }
+  body .freq_ask_ques .freq_body .freq_drpdwn .freq_drpdwn_btn .btn_part_2 {
+    background-color: rgba(0, 140, 255, 0.1);
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .freq_ask_ques .freq_body .freq_drpdwn .freq_drpdwn_btn .btn_part_2 i {
+      font-size: 1.2rem;
+      color: var(--blue-color); }
+
+body .freq_ask_ques .freq_body .freq_drpdwn .prf_drpdwn-content {
+  background-color: rgba(0, 140, 255, 0.1); }
+  body .freq_ask_ques .freq_body .freq_drpdwn .prf_drpdwn-content .pad_cont {
+    padding: 0.5rem;
+    margin-top: 0.6rem; }
+  body .freq_ask_ques .freq_body .freq_drpdwn .prf_drpdwn-content p {
+    text-align: left; }
+
+@media screen and (min-width: 768px) {
+  body .back_page .back_page_2 {
+    top: 301px; }
+    body .back_page .back_page_2 .tvastra_plan {
+      margin: 0 2rem; }
+      body .back_page .back_page_2 .tvastra_plan .all_plans .plan {
+        justify-content: flex-start; }
+        body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_title {
+          width: 95%; }
+      body .back_page .back_page_2 .tvastra_plan .all_plans .basic_plan {
+        flex-direction: row; } }

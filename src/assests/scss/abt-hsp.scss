@@ -1,0 +1,219 @@
+$white_color : #fff;
+$border_color:gray;
+$background_color :rgba(0,140,255,0.1);
+
+body{
+    .profile_banner{
+        img{
+        object-position: left;
+        }
+    }
+    .abt_hsp_body{
+        padding: 1rem;
+        .abt_hsp_main_body{
+            border: 1px solid gray;
+            // display: flex;
+            // flex-direction: row-reverse;
+            .abt_hsp_body_1{
+                padding: 0.5rem;
+                text-align: center;
+                // flex: 1;
+                // .apollo_img{
+                //     padding: 0.5rem;
+                // }
+                button{
+                    margin-top: 0.5rem;
+                    width: 100%;
+                }
+            }
+            .abt_hsp_body_2{
+                // flex: 2;
+                  .hospital_info{
+                      .hsp_name{
+                          display: flex;
+                          align-items: center;
+                          span{
+                              width: 2rem;
+                              height: 2px;
+                              background-color: var(--blue-color);
+                          }
+                          h3{
+                              color: var(--blue-color);
+                              padding: 1rem 0 1rem 5px;
+                          }
+                      }
+                      .abt_hsp_icon{
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: space-between;
+                          padding-left: 1rem;
+                          .hsp_icon{
+                            display: flex;
+                            align-items: center;
+                              span{
+                                font-family: "Nexa Light";
+                                 padding-left: 1rem;
+                                 line-height: 1.4rem;
+                              }
+                              i{
+                                  color: var(--blue-color);
+                                  font-size: 1.2rem;
+                                  font-weight: bold;
+                              }
+                          }
+                      .hsp_icon_1{
+                          margin-bottom: 1rem;
+                      }
+                      }
+                      .apollo_info{
+                        padding:1.5rem 1rem;
+                        padding-bottom: 0;
+                        span{
+                            font-family: "Nexa light";
+                            line-height: 1.5rem;
+                        }
+                    }
+                  }
+                  .hosp_drdpwn{
+                    padding: 1rem 0.5rem;
+                    .prof_info{
+                       .prf_drpdwn{
+                           .prf_drpdwn_btn{
+                               display: flex;
+                               justify-content: space-between;
+                               align-items: center;
+                            //        border: 1px dotted $border_color;
+                               border-right: none;
+                               border-left: none;
+                               padding: 0.8rem 0;
+                               .btn_part_1{
+                                   display: flex;
+                                   align-items: center;
+                                   i{
+                                     font-size: 1.4rem;
+                                     color: var(--blue-color);
+                                   }
+                                   h4{
+                                     padding-left: 0.5rem;
+                                     color: var(--blue-color);
+                                     font-size: 1.3rem;
+                                   }
+                               }
+                               .btn_part_2{
+                                   background-color: $background_color;
+                                   height: 1.6rem;
+                                   width: 1.6rem;
+                                   border-radius: 50%;
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                                     i{
+                                       font-size: 1.2rem;
+                                       color: var(--blue-color);
+                                     }
+                               }
+                           }
+                           .prf_drpdwn-content{
+                               background-color: $background_color;
+                               .pad_cont{
+                                   padding: 0.5rem;
+                               } 
+                               p{
+                                   text-align: left;
+                               }
+                           }
+                       }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width:768px){
+    body{
+   nav{
+       .image-1{
+           width: 150px;
+       }
+   }
+   .abt_hsp_body{
+    padding: 1rem 2rem;
+       .abt_hsp_main_body{
+       display: flex;
+       flex-direction:row-reverse;
+
+       .abt_hsp_body_1{
+           padding: 1rem;
+           flex: 1;
+           
+       }
+       .abt_hsp_body_2{
+           flex: 2;
+           .hospital_info{
+               .abt_hsp_icon{
+                   flex-direction: row;
+                   .hsp_icon_1{
+                       flex: 2;
+                       margin: 1rem 0 0 0;
+                   }
+                   .hsp_icon_2{
+                       flex: 2;
+                       margin-left: 1rem;
+                   }
+               }
+           }
+       }
+   }
+   }
+   .footer{
+       .foot-part-1{
+          .foot-img{
+              width: 20%;
+              max-width: 180px;
+          }
+       }
+       .foot-part-2{
+      .social-media{
+          width: 20%;
+          max-width: 180px;
+      }
+       }
+   }
+}
+}
+@media screen and(min-width:1024px){
+    body{
+
+   .profile_banner{
+       .profile_banner_info{
+           left: 4rem;
+       }
+   }
+
+        .abt_hsp_body{
+            padding: 1rem 4rem;
+       
+        .abt_hsp_main_body{
+            .abt_hsp_body_2{
+              .hospital_info{
+                  .abt_hsp_icon{
+                      padding-left: 2rem;
+                      .hsp_icon_1{
+                          margin: 0;
+                      }
+                  }
+                  .apollo_info{
+               
+                    padding-left: 2rem;
+                
+            }
+              }
+            .hosp_drdpwn{
+                padding:1rem 2rem
+            }
+            }
+        }
+    }
+    }
+}

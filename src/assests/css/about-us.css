@@ -1,0 +1,176 @@
+body nav .image-1 {
+  width: 35%; }
+
+body nav .fa {
+  font-size: 1.1rem; }
+
+body .banner {
+  height: 450px;
+  width: 100vw;
+  background: black;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body .banner img {
+    object-fit: cover;
+    opacity: 0.7; }
+  body .banner .banner_info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    body .banner .banner_info h3, body .banner .banner_info p {
+      color: #fff; }
+    body .banner .banner_info p {
+      font-size: 1rem;
+      margin-top: 1.2rem; }
+
+body .about_us_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  body .about_us_info .about_us_info_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  body .about_us_info .about_us_para p {
+    margin-top: 1rem; }
+  body .about_us_info .sig_image {
+    padding: 1rem 0; }
+
+body .free_check_up {
+  background-color: black;
+  padding: 1.3rem; }
+  body .free_check_up .free_check_up_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    body .free_check_up .free_check_up_1 h3, body .free_check_up .free_check_up_1 p {
+      color: #fff; }
+    body .free_check_up .free_check_up_1 p {
+      margin: 1.3rem 0;
+      opacity: 0.9; }
+    body .free_check_up .free_check_up_1 button {
+      background-color: var(--blue-color);
+      color: #fff;
+      font-family: "Nexa Bold";
+      width: 210px;
+      padding: 0.8rem 1.1rem;
+      border-radius: 0.5rem;
+      margin-bottom: 0.3rem; }
+  body .free_check_up .free_check_up_2 .card {
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin-top: 1rem;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column; }
+    body .free_check_up .free_check_up_2 .card h5, body .free_check_up .free_check_up_2 .card span {
+      color: #fff; }
+    body .free_check_up .free_check_up_2 .card .span_div {
+      text-align: center; }
+    body .free_check_up .free_check_up_2 .card span {
+      font-family: "Nexa Bold";
+      font-size: 0.8rem;
+      color: gray; }
+
+body .container button {
+  font-family: "Nexa Bold";
+  padding: 1rem 2rem;
+  font-size: 1.2rem; }
+
+body .container .con-part-1 {
+  margin: 1.1rem 0; }
+
+body .footer .foot-part-2 {
+  opacity: 0.9; }
+  body .footer .foot-part-2 .social-media {
+    width: 60%; }
+    body .footer .foot-part-2 .social-media i {
+      font-size: 1.3rem; }
+  body .footer .foot-part-2 #last {
+    font-size: 1.1rem; }
+
+@media screen and (min-width: 768px) {
+  body nav .image-1 {
+    width: 23%; }
+  body nav .fa {
+    font-size: 1.4rem; }
+  body .about_us_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start; }
+    body .about_us_info .about_us_info_1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      flex: 2; }
+      body .about_us_info .about_us_info_1 h4, body .about_us_info .about_us_info_1 p {
+        text-align: left; }
+      body .about_us_info .about_us_info_1 .sig_image {
+        padding-bottom: 0; }
+    body .about_us_info .about_info_2 {
+      flex: 1; }
+  body .free_check_up {
+    padding: 2rem; }
+    body .free_check_up .free_check_up_1 {
+      align-items: flex-start; }
+      body .free_check_up .free_check_up_1 h3, body .free_check_up .free_check_up_1 p {
+        text-align: left; }
+      body .free_check_up .free_check_up_1 button {
+        margin: 2.5rem 0 3.8rem 0; }
+    body .free_check_up .free_check_up_2 {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 14px; }
+      body .free_check_up .free_check_up_2 .card {
+        margin: 0; }
+  body .footer .foot-part-1 .foot-img {
+    width: 25%; }
+  body .footer .foot-part-2 .social-media {
+    width: 25%; }
+    body .footer .foot-part-2 .social-media i {
+      font-size: 1.4rem; } }
+
+@media screen and (min-width: 1024px) {
+  body nav .image-1 {
+    width: 15%; }
+  body .banner img {
+    object-position: 0 4%; }
+  body .banner .banner_info h3, body .banner .banner_info p {
+    text-align: center; }
+  body .about_us_info .about_us_info_1 {
+    flex: 1; }
+  body .about_us_info .about_info_2 {
+    display: flex;
+    justify-content: center; }
+    body .about_us_info .about_info_2 .doc_image {
+      width: 50%; }
+  body .free_check_up {
+    display: flex;
+    background-color: gray;
+    padding: 2rem 4rem; }
+    body .free_check_up .free_check_up_1 button {
+      padding: 1rem 1.1rem; }
+    body .free_check_up .free_check_up_2 .card {
+      border: 1px solid #fff; }
+      body .free_check_up .free_check_up_2 .card .span_div span {
+        color: #ddd8d8; }
+  body .container {
+    padding: 2rem 4rem; }
+  body .footer .foot-part-1 .foot-img {
+    width: 15%; }
+  body .footer .foot-part-2 .social-media {
+    width: 15%; }
+  body .footer .foot-part-2 #last {
+    font-size: 1rem; } }

@@ -1,0 +1,67 @@
+body .contact_banner {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body .contact_banner .contact_banner_info {
+    position: absolute; }
+    body .contact_banner .contact_banner_info h3 {
+      margin-bottom: 1rem;
+      color: #fff; }
+    body .contact_banner .contact_banner_info p {
+      opacity: 0.9;
+      color: #fff; }
+
+body #map {
+  height: 300px;
+  padding: 1rem 1rem 2rem 1rem; }
+  body #map iframe {
+    width: 100%;
+    height: 100%; }
+    body #map iframe .gm-style-pbc {
+      opacity: 1; }
+
+body .query_contact .contact_info {
+  padding: 0 1rem; }
+  @media (min-width: 768px) {
+    body .query_contact .contact_info {
+      display: flex;
+      justify-content: space-between; } }
+  body .query_contact .contact_info .contact_inf {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem; }
+    body .query_contact .contact_info .contact_inf i {
+      font-size: 1.7rem;
+      color: #0272b1;
+      padding-right: 1rem;
+      padding-left: 2rem; }
+      @media (min-width: 768px) {
+        body .query_contact .contact_info .contact_inf i {
+          padding-left: 0; } }
+    body .query_contact .contact_info .contact_inf .icon_text h6 {
+      padding-bottom: 0.3rem; }
+    body .query_contact .contact_info .contact_inf .icon_text span {
+      font-size: 0.9rem;
+      font-family: 'Nexa Light'; }
+
+body .query_contact .query_info {
+  background-color: var(--primary-color);
+  padding: 1.5rem 1rem; }
+  body .query_contact .query_info .query_row .query_inf input {
+    margin-bottom: 0.8rem; }
+  body .query_contact .query_info .query_row .query_inf ::placeholder {
+    font-family: "Nexa Bold";
+    color: gray;
+    opacity: 0.6; }
+  body .query_contact .query_info .submit_btn {
+    text-align: end; }
+    body .query_contact .query_info .submit_btn button {
+      background-color: #0272b1;
+      color: #fff;
+      font-family: "Nexa Bold";
+      font-size: 1.1rem;
+      letter-spacing: 0;
+      padding: 0.8rem 1rem;
+      opacity: 0.9; }

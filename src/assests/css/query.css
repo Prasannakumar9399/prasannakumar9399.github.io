@@ -1,0 +1,68 @@
+body {
+  background-color: var(--primary-color);
+  position: relative; }
+  body .query-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    body .query-section .query-form {
+      background-color: var(--white-color);
+      padding: 1rem 0rem;
+      width: 100%; }
+      body .query-section .query-form ::placeholder {
+        font-family: "Nexa Bold";
+        opacity: 0.6; }
+      body .query-section .query-form h5 {
+        color: var(--blue-color);
+        padding: 1.5rem 0; }
+      body .query-section .query-form .query-content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 1rem;
+        padding-top: 0; }
+        body .query-section .query-form .query-content #name_input {
+          margin-top: 0.5rem; }
+        body .query-section .query-form .query-content input, body .query-section .query-form .query-content textarea {
+          padding: 0.7rem;
+          border: 1px solid #cecdcd;
+          margin-top: 1rem; }
+        body .query-section .query-form .query-content button {
+          margin-top: 1rem;
+          padding: 1rem 2rem;
+          font-size: 1.1rem;
+          letter-spacing: 0.3rem;
+          position: relative;
+          margin-bottom: 1rem; }
+          body .query-section .query-form .query-content button i {
+            color: var(--white-color);
+            font-size: 1rem;
+            position: absolute;
+            right: 1rem;
+            top: 32%; }
+      body .query-section .query-form P {
+        font-size: 0.9rem;
+        color: gray;
+        font-family: "Nexa Bold"; }
+        body .query-section .query-form P span {
+          color: var(--blue-color); }
+  body .last-p {
+    font-family: 'Nexa Bold';
+    font-size: 0.9rem;
+    position: relative;
+    width: 100%;
+    padding-bottom: 1rem; }
+
+@media only screen and (min-width: 768px) {
+  body .query-section .query-form {
+    width: 430px; } }
+
+@media only screen and (min-width: 1024px) {
+  h5, p {
+    text-align: center; }
+  nav .image-1 {
+    width: 150px; }
+  body .query-section .query-form {
+    width: 800px; } }

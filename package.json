@@ -9,7 +9,14 @@
     "compile:login":"node-sass ./src/assests/scss/login.scss  ./src/assests/css/login.css -w",
     "compile:sign":"node-sass ./src/assests/scss/signup.scss  ./src/assests/css/signup.css -w",
     "compile:treatment":"node-sass ./src/assests/scss/treatment.scss  ./src/assests/css/treatment.css -w",
-    "compile:appointment":"node-sass ./src/assests/scss/appointment.scss  ./src/assests/css/appointment.css -w"
+    "compile:appointment":"node-sass ./src/assests/scss/appointment.scss  ./src/assests/css/appointment.css -w",
+    "compile:about":"node-sass ./src/assests/scss/about-us.scss  ./src/assests/css/about-us.css -w",
+    "compile:profile":"node-sass ./src/assests/scss/doc-profile.scss  ./src/assests/css/doc-profile.css -w",
+    "compile:faq":"node-sass ./src/assests/scss/fqa.scss  ./src/assests/css/faq.css -w",
+    "compile:abt-hsp":"node-sass ./src/assests/scss/abt-hsp.scss  ./src/assests/css/abt-hsp.css -w",
+    "compile:query":"node-sass ./src/assests/scss/query.scss  ./src/assests/css/query.css -w",
+    "compile:plus":"node-sass ./src/assests/scss/t-plus.scss  ./src/assests/css/t-plus.css -w",
+    "compile:contact":"node-sass ./src/assests/scss/contact.scss  ./src/assests/css/contact.css -w"
 
   },
   "repository": {

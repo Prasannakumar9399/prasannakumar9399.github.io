@@ -1,0 +1,91 @@
+body{
+    .profile_body{
+        padding: 1rem 1rem;
+        .prof_main_body{
+           border: none;
+            .profile_body_2{
+                padding: 0;
+                .prof_body_2_part_2{
+                    .prof_info{
+                        .prf_drpdwn{
+                            .prf_drpdwn_btn{
+                                border: none;
+                                padding: 1rem 0;
+                                .btn_part_1{
+                                    h4{
+                                        padding: 0;
+                                        text-align: left;
+                                        font-size: 1.3rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px){
+    body{
+         nav{
+             .image-1{
+                 width: 20%;
+             }
+         }
+
+        .footer{
+            .foot-part-1{
+             .foot-img{
+                 width: 25%;
+             }
+            }
+            .foot-part-2{
+               .social-media{
+                   width: 25%;
+                   i{
+                   font-size: 1.4rem;
+                   }
+               }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    body{
+        .profile_banner{
+            justify-content: flex-start;
+            height: 30vh;
+            .profile_banner_info{
+                left: 4rem;
+            }
+        }
+        .profile_body{
+            padding: 1rem 4rem;
+            .prof_main_body{
+                .profile_body_2{
+                    .prof_body_2_part_2{
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        .container{
+            padding: 2rem 4rem;
+        }
+        .footer{
+            .foot-part-1{
+                .foot-img{
+                    width: 150px;
+                }
+            }
+            .foot-part-2{
+                .social-media{
+                    width: 150px;
+                }
+            }
+        }
+    }
+}

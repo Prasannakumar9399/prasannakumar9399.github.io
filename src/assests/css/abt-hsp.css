@@ -1,0 +1,125 @@
+body .profile_banner img {
+  object-position: left; }
+
+body .abt_hsp_body {
+  padding: 1rem; }
+  body .abt_hsp_body .abt_hsp_main_body {
+    border: 1px solid gray; }
+    body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_1 {
+      padding: 0.5rem;
+      text-align: center; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_1 button {
+        margin-top: 0.5rem;
+        width: 100%; }
+    body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .hsp_name {
+      display: flex;
+      align-items: center; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .hsp_name span {
+        width: 2rem;
+        height: 2px;
+        background-color: var(--blue-color); }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .hsp_name h3 {
+        color: var(--blue-color);
+        padding: 1rem 0 1rem 5px; }
+    body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 1rem; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon .hsp_icon {
+        display: flex;
+        align-items: center; }
+        body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon .hsp_icon span {
+          font-family: "Nexa Light";
+          padding-left: 1rem;
+          line-height: 1.4rem; }
+        body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon .hsp_icon i {
+          color: var(--blue-color);
+          font-size: 1.2rem;
+          font-weight: bold; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon .hsp_icon_1 {
+        margin-bottom: 1rem; }
+    body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .apollo_info {
+      padding: 1.5rem 1rem;
+      padding-bottom: 0; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .apollo_info span {
+        font-family: "Nexa light";
+        line-height: 1.5rem; }
+    body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn {
+      padding: 1rem 0.5rem; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn_btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-right: none;
+        border-left: none;
+        padding: 0.8rem 0; }
+        body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn_btn .btn_part_1 {
+          display: flex;
+          align-items: center; }
+          body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn_btn .btn_part_1 i {
+            font-size: 1.4rem;
+            color: var(--blue-color); }
+          body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn_btn .btn_part_1 h4 {
+            padding-left: 0.5rem;
+            color: var(--blue-color);
+            font-size: 1.3rem; }
+        body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn_btn .btn_part_2 {
+          background-color: rgba(0, 140, 255, 0.1);
+          height: 1.6rem;
+          width: 1.6rem;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn_btn .btn_part_2 i {
+            font-size: 1.2rem;
+            color: var(--blue-color); }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn-content {
+        background-color: rgba(0, 140, 255, 0.1); }
+        body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn-content .pad_cont {
+          padding: 0.5rem; }
+        body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn .prof_info .prf_drpdwn .prf_drpdwn-content p {
+          text-align: left; }
+
+@media screen and (min-width: 768px) {
+  body nav .image-1 {
+    width: 150px; }
+  body .abt_hsp_body {
+    padding: 1rem 2rem; }
+    body .abt_hsp_body .abt_hsp_main_body {
+      display: flex;
+      flex-direction: row-reverse; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_1 {
+        padding: 1rem;
+        flex: 1; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 {
+        flex: 2; }
+        body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon {
+          flex-direction: row; }
+          body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon .hsp_icon_1 {
+            flex: 2;
+            margin: 1rem 0 0 0; }
+          body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon .hsp_icon_2 {
+            flex: 2;
+            margin-left: 1rem; }
+  body .footer .foot-part-1 .foot-img {
+    width: 20%;
+    max-width: 180px; }
+  body .footer .foot-part-2 .social-media {
+    width: 20%;
+    max-width: 180px; } }
+
+@media screen and (min-width: 1024px) {
+  body .profile_banner .profile_banner_info {
+    left: 4rem; }
+  body .abt_hsp_body {
+    padding: 1rem 4rem; }
+    body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon {
+      padding-left: 2rem; }
+      body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .abt_hsp_icon .hsp_icon_1 {
+        margin: 0; }
+    body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hospital_info .apollo_info {
+      padding-left: 2rem; }
+    body .abt_hsp_body .abt_hsp_main_body .abt_hsp_body_2 .hosp_drdpwn {
+      padding: 1rem 2rem; } }

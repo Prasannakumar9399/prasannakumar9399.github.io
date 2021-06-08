@@ -244,24 +244,30 @@ p{
   margin: 0.2rem;
   border-radius: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
+.item-1{
+  width: 45%;
+}
+.item-2{
+  width: 55%;
+}
+.item-3{
+  width: 50%;
+}
+.item-4{
+  width: 23%;
+}
 .chose-item i{
-  color: var(--blue-color);
-  padding-left: 0.3rem;
-  font-weight: 300;
+  color: lightblue;
+  
+
 }
 .choose-row{
   display: flex;
 }
-.chose-item p::after{
-  content: "x";
-  padding-left: 0.4rem;
-  font-family: "Nexa Light";
-  font-size: 1rem;
-  color: var(--blue-color);
-}
+
  
 .doc-filt-1 .fa-minus{
   padding-left: 1rem;
