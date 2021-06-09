@@ -17,23 +17,24 @@ body .profile_banner {
       opacity: 0.9; }
 
 body .profile_body {
-  padding: 1rem; }
+  padding: 1.5rem; }
+  @media (min-width: 1024px) {
+    body .profile_body {
+      padding: 2.5rem 5rem; } }
   body .profile_body .prof_main_body {
     border: 1px solid gray; }
     body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint {
-      margin-bottom: 2.5rem; }
-      body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint .profile_img {
-        padding: 0.5rem; }
+      padding: 0.8rem;
+      margin-bottom: 0.2rem; }
       body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint .profile_btn {
         text-align: center; }
         body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint .profile_btn button {
-          margin: 0;
-          width: 95%; }
+          width: 100%; }
     body .profile_body .prof_main_body .profile_body_2 {
       padding: 1rem 0; }
       body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_1 .prof_head {
         display: flex;
-        /* justify-content: center; */
+        padding-top: 0.8rem;
         align-items: center; }
         body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_1 .prof_head h3, body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_1 .prof_head span {
           color: var(--blue-color); }
@@ -44,7 +45,8 @@ body .profile_body {
         body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_1 .prof_head h3 {
           padding-left: 0.5rem; }
       body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_1 p {
-        padding: 1rem 0.5rem; }
+        font-size: 1rem;
+        padding: 1rem 0.7rem; }
       body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 {
         padding: 0.5rem; }
         body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 .prof_info .prf_drpdwn .prf_drpdwn_btn {
@@ -78,8 +80,9 @@ body .profile_body {
         body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 .prof_info .prf_drpdwn .prf_drpdwn-content {
           background-color: rgba(0, 140, 255, 0.1); }
           body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 .prof_info .prf_drpdwn .prf_drpdwn-content .pad_cont {
-            padding: 0.5rem; }
+            padding: 0.7rem; }
           body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 .prof_info .prf_drpdwn .prf_drpdwn-content p {
+            font-size: 1rem;
             text-align: left; }
 
 @media only screen and (min-width: 768px) {
@@ -112,7 +115,12 @@ body .profile_body {
       body .profile_body .prof_main_body .profile_body_1 {
         flex: 1; }
         body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint {
-          padding: 0.3rem; }
+          padding: 1.2rem; } }
+        @media only screen and (min-width: 768px) and (min-width: 1024px) {
+          body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint {
+            padding: 1.5rem; } }
+
+@media only screen and (min-width: 768px) {
           body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint .profile_btn button {
             padding: 0.8rem 1rem; }
       body .profile_body .prof_main_body .profile_body_2 {

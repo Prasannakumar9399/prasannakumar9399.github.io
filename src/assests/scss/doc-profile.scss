@@ -28,21 +28,22 @@ body{
         }
     }
     .profile_body{
-        padding: 1rem;
+        padding: 1.5rem;
+        @media (min-width:1024px){
+            padding: 2.5rem 5rem;
+        }
         .prof_main_body{
             border: 1px solid $border_color;
         .profile_body_1{
            
             .prof_book_appoint{
-                margin-bottom: 2.5rem;
-                .profile_img{
-                    padding: 0.5rem;
-                    }
+                padding: 0.8rem;
+                margin-bottom: 0.2rem;
+                
                     .profile_btn{
                         text-align: center;
                         button{
-                            margin: 0;
-                            width: 95%;
+                        width: 100%;
                         }
                     }
             }
@@ -52,7 +53,7 @@ body{
          .prof_body_2_part_1{
              .prof_head{
                 display: flex;
-                /* justify-content: center; */
+                padding-top: 0.8rem;
                 align-items: center;
                  h3,span{
                      color: var(--blue-color);
@@ -67,8 +68,8 @@ body{
                  }
              }
              p{
-            //    font-size: 1rem;
-               padding: 1rem 0.5rem;
+               font-size: 1rem;
+               padding: 1rem 0.7rem;
              }
          }
          .prof_body_2_part_2{
@@ -112,9 +113,10 @@ body{
                     .prf_drpdwn-content{
                         background-color: $background_color;
                         .pad_cont{
-                            padding: 0.5rem;
+                            padding: 0.7rem;
                         } 
                         p{
+                            font-size: 1rem;
                             text-align: left;
                         }
                     }
@@ -159,7 +161,10 @@ body{
               .profile_body_1{
                   flex: 1;
                  .prof_book_appoint{
-                     padding: 0.3rem;
+                     padding: 1.2rem;
+                     @media (min-width:1024px){
+                         padding: 1.5rem;
+                     }
                    .profile_btn{
                        button{
                            padding: 0.8rem 1rem;
