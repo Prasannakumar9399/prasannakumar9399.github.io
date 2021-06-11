@@ -9,6 +9,9 @@ body .profile_banner {
   align-items: center; }
   body .profile_banner .profile_banner_info {
     position: absolute; }
+    @media (min-width: 1024px) {
+      body .profile_banner .profile_banner_info {
+        left: 4rem; } }
     body .profile_banner .profile_banner_info h3, body .profile_banner .profile_banner_info p {
       color: #fff; }
     body .profile_banner .profile_banner_info h3 {

@@ -16,6 +16,9 @@ body{
         align-items: center;
         .profile_banner_info{
              position: absolute;
+             @media (min-width:1024px){
+                 left: 4rem;
+             }
              h3,p{
                color: $white_color;
              }
