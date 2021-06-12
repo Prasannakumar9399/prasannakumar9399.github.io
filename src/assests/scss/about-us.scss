@@ -55,6 +55,9 @@ body{
             padding: 1rem 0;
         }
     }
+    #video1{
+        display: none;
+    }
    .free_check_up{
        background-color: black;
       padding: 1.3rem;
@@ -236,9 +239,21 @@ body{
            }
         }
     }
-    .free_check_up{
+    #videoDiv{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        #video1{
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+        #videoMessage{
+            position: absolute;
+ .free_check_up{
         display: flex;
-        background-color: gray;
+        background:url("https://workspace.konfinity.com/swapnil/tvastra-wiki/-/wikis/uploads/e06d816e6aca8019010592c7780543a4/The+New+Stamford+Hospital+TV+Commercial.mp4");
         padding: 2rem 4rem;
         .free_check_up_1{
             button{
@@ -256,6 +271,9 @@ body{
            }
         }
     }
+        }
+    }
+   
     .container{
         padding: 2rem 4rem;
     }

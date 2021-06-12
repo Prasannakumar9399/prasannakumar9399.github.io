@@ -42,6 +42,9 @@ body .about_us_info {
   body .about_us_info .sig_image {
     padding: 1rem 0; }
 
+body #video1 {
+  display: none; }
+
 body .free_check_up {
   background-color: black;
   padding: 1.3rem; }
@@ -155,16 +158,27 @@ body .footer .foot-part-2 {
     justify-content: center; }
     body .about_us_info .about_info_2 .doc_image {
       width: 50%; }
-  body .free_check_up {
+  body #videoDiv {
+    position: relative;
     display: flex;
-    background-color: gray;
-    padding: 2rem 4rem; }
-    body .free_check_up .free_check_up_1 button {
-      padding: 1rem 1.1rem; }
-    body .free_check_up .free_check_up_2 .card {
-      border: 1px solid #fff; }
-      body .free_check_up .free_check_up_2 .card .span_div span {
-        color: #ddd8d8; }
+    justify-content: center;
+    align-items: center; }
+    body #videoDiv #video1 {
+      display: block;
+      height: 100%;
+      width: 100%; }
+    body #videoDiv #videoMessage {
+      position: absolute; }
+      body #videoDiv #videoMessage .free_check_up {
+        display: flex;
+        background: url("https://workspace.konfinity.com/swapnil/tvastra-wiki/-/wikis/uploads/e06d816e6aca8019010592c7780543a4/The+New+Stamford+Hospital+TV+Commercial.mp4");
+        padding: 2rem 4rem; }
+        body #videoDiv #videoMessage .free_check_up .free_check_up_1 button {
+          padding: 1rem 1.1rem; }
+        body #videoDiv #videoMessage .free_check_up .free_check_up_2 .card {
+          border: 1px solid #fff; }
+          body #videoDiv #videoMessage .free_check_up .free_check_up_2 .card .span_div span {
+            color: #ddd8d8; }
   body .container {
     padding: 2rem 4rem; }
   body .footer .foot-part-1 .foot-img {
