@@ -117,12 +117,13 @@ label{
 }
 button {
     border: none;
-    font-family: "Nexa Light";
-    font-size: 0.9rem;
-    padding: 0.4rem 1rem;
-    letter-spacing: 0.1rem;
+     background-color: #001435;
+    color: var(--white-color);
+    font-size: 1rem;
+    text-align: center;
+     padding: 0.4rem 1rem;
     cursor: pointer;
-    line-height: 1.2rem;
+    font-family: "Nexa Bold";
 }
 
 @media only screen and (min-width:768px){

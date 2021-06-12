@@ -32,6 +32,9 @@ body .profile_body {
       body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint .profile_btn {
         text-align: center; }
         body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint .profile_btn button {
+          padding: 0.8rem 1.8rem;
+          margin: 1rem 0; }
+        body .profile_body .prof_main_body .profile_body_1 .prof_book_appoint .profile_btn button {
           width: 100%; }
     body .profile_body .prof_main_body .profile_body_2 {
       padding: 1rem 0; }
