@@ -58,14 +58,6 @@ body .free_check_up {
     body .free_check_up .free_check_up_1 p {
       margin: 1.3rem 0;
       opacity: 0.9; }
-    body .free_check_up .free_check_up_1 button {
-      background-color: var(--blue-color);
-      color: #fff;
-      font-family: "Nexa Bold";
-      width: 210px;
-      padding: 0.8rem 1.1rem;
-      border-radius: 0.5rem;
-      margin-bottom: 0.3rem; }
   body .free_check_up .free_check_up_2 .card {
     border: 1px solid gray;
     justify-content: center;
