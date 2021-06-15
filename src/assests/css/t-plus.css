@@ -561,6 +561,28 @@ body .freq_ask_ques .freq_body .freq_drpdwn .prf_drpdwn-content {
   body .freq_ask_ques .freq_body .freq_drpdwn .prf_drpdwn-content p {
     text-align: left; }
 
+@media (min-width: 1024px) {
+  body .footer {
+    padding: 2rem 4rem; } }
+
+@media (min-width: 1023px) {
+  body .footer .foot-part-1 .foot-img {
+    width: 15%; } }
+
+body .footer .foot-part-2 .social-media {
+  width: 50%; }
+  @media (min-width: 768px) {
+    body .footer .foot-part-2 .social-media {
+      width: 20%; } }
+  @media (min-width: 1023px) {
+    body .footer .foot-part-2 .social-media {
+      width: 15%; } }
+  body .footer .foot-part-2 .social-media i {
+    font-size: 20px; }
+
+body .footer .foot-part-2 #last {
+  font-size: 1rem; }
+
 @media screen and (min-width: 768px) {
   body .back_page .back_page_2 {
     top: 301px; }

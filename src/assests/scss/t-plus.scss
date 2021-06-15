@@ -739,6 +739,35 @@ body{
        }
    }
   }
+  .footer{
+@media (min-width:1024px){
+    padding: 2rem 4rem;
+}
+    .foot-part-1{
+        .foot-img{
+            @media (min-width:1023px){
+                width: 15%;
+            }
+        }
+    }
+      .foot-part-2{
+          .social-media{
+              width: 50%;
+              @media (min-width:768px){
+                  width: 20%;
+              }
+               @media (min-width:1023px){
+                  width: 15%;
+              }
+              i{
+                  font-size: 20px;
+              }
+          }
+          #last{
+              font-size: 1rem;
+          }
+      }
+  }
 }
 
 @media screen and (min-width:768px){
