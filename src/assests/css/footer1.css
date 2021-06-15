@@ -1,6 +1,5 @@
 .container{
-    /* padding: 1rem; */
-    background-color: #8fcaf1;
+    background-color: var(--primary-color);
     color: #021433;
     display: flex;
     flex-direction: column;
@@ -18,13 +17,12 @@
 @media only screen and (min-width:1024px){
     .container{
         flex-direction: row;
+        padding: 3rem 4rem;
     }
     .container h2{
         text-align: start;
     }
     .container button{
-        width: 22rem;
-        height: 5rem;
         font-size: 1.2rem;
     }
 

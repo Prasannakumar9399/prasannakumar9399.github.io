@@ -106,7 +106,7 @@
 }
 @media only screen and (min-width:1024px){
     .footer{
-        padding: 2rem;
+        padding: 2rem 4rem;
     }
     .foot-part-1,.foot-part-2{
         width: 100%;
@@ -120,6 +120,12 @@
     }
     .social-media .fa{
         font-size: 1.4rem;
+    }
+    .foot-img{
+        width:15%
+    }
+    .social-media{
+        width: 15%;
     }
     .footer #last{
         font-size: 1.1rem;
