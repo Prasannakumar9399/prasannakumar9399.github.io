@@ -7,7 +7,9 @@ body{
     }
 }
     .profile_body{
+        @media (max-width:767px){
         padding: 1rem 1rem;
+        }
         .prof_main_body{
            border: none;
             .profile_body_2{
@@ -52,6 +54,9 @@ body{
             }
     }
 .footer{
+    @media (min-width:1023px){
+        padding: 2rem 4rem;
+    }
     #last{
         @media (max-width:767px){
             font-size: 16px;

@@ -2,19 +2,21 @@
   body .profile_banner img {
     object-position: right; } }
 
-body .profile_body {
-  padding: 1rem 1rem; }
-  body .profile_body .prof_main_body {
-    border: none; }
-    body .profile_body .prof_main_body .profile_body_2 {
-      padding: 0; }
-      body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 .prof_info .prf_drpdwn .prf_drpdwn_btn {
-        border: none;
-        padding: 1rem 0; }
-        body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 .prof_info .prf_drpdwn .prf_drpdwn_btn .btn_part_1 h4 {
-          padding: 0;
-          text-align: left;
-          font-size: 1.3rem; }
+@media (max-width: 767px) {
+  body .profile_body {
+    padding: 1rem 1rem; } }
+
+body .profile_body .prof_main_body {
+  border: none; }
+  body .profile_body .prof_main_body .profile_body_2 {
+    padding: 0; }
+    body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 .prof_info .prf_drpdwn .prf_drpdwn_btn {
+      border: none;
+      padding: 1rem 0; }
+      body .profile_body .prof_main_body .profile_body_2 .prof_body_2_part_2 .prof_info .prf_drpdwn .prf_drpdwn_btn .btn_part_1 h4 {
+        padding: 0;
+        text-align: left;
+        font-size: 1.3rem; }
 
 body .container {
   background-color: var(--primary-color);
@@ -32,6 +34,10 @@ body .container {
     body .container .con-part-1 h2 {
       color: var(--white-color);
       padding-bottom: 0.5rem; }
+
+@media (min-width: 1023px) {
+  body .footer {
+    padding: 2rem 4rem; } }
 
 @media (max-width: 767px) {
   body .footer #last {
