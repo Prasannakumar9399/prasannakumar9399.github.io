@@ -6,6 +6,10 @@
   body .profile_body {
     padding: 1rem; } }
 
+@media (min-width: 768px) {
+  body .profile_body {
+    padding: 1rem 2rem; } }
+
 body .profile_body .prof_main_body {
   border: none; }
   body .profile_body .prof_main_body .profile_body_2 {
