@@ -33,6 +33,18 @@ body .container {
       color: var(--white-color);
       padding-bottom: 0.5rem; }
 
+@media (max-width: 767px) {
+  body .footer #last {
+    font-size: 16px; } }
+
+@media (max-width: 767px) {
+  body .footer .foot-part-2 .social-media {
+    width: 55%; } }
+
+@media (max-width: 767px) {
+  body .footer .foot-part-2 .social-media .fa {
+    font-size: 20px; } }
+
 @media screen and (min-width: 768px) {
   body nav .image-1 {
     width: 20%; }

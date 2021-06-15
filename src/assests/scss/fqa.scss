@@ -51,6 +51,25 @@ body{
                     }
             }
     }
+.footer{
+    #last{
+        @media (max-width:767px){
+            font-size: 16px;
+        }
+    }
+    .foot-part-2{
+        .social-media{
+            @media (max-width:767px){
+                width: 55%;
+            }
+            .fa{
+                @media (max-width:767px){
+                font-size: 20px;
+                }
+            }
+        }
+    }
+}
 }
 
 @media screen and (min-width:768px){
