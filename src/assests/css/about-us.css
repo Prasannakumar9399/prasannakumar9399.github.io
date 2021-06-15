@@ -76,8 +76,17 @@ body .free_check_up {
       font-size: 0.8rem;
       color: gray; }
 
-body .container .con-part-1 {
-  margin: 1.1rem 0; }
+body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color); }
+  @media (min-width: 1023px) {
+    body .container {
+      flex-direction: row; } }
+  body .container .con-part-1 {
+    margin: 1.1rem 0; }
 
 body .footer .foot-part-2 {
   opacity: 0.9; }

@@ -1,4 +1,11 @@
 body{
+.profile_banner{
+    img{
+        @media (min-width:768px){
+        object-position: right;
+        }
+    }
+}
     .profile_body{
         padding: 1rem 1rem;
         .prof_main_body{
@@ -24,6 +31,25 @@ body{
                 }
             }
         }
+    }
+    .container{
+            background-color: var(--primary-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+@media (min-width:1023px){
+    padding: 1.5rem 4rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+            .con-part-1{
+                    padding: 0 0 1rem 0;
+                    h2{
+                        color: var(--white-color);
+                        padding-bottom: 0.5rem;
+                    }
+            }
     }
 }
 
@@ -58,6 +84,7 @@ body{
         .profile_banner{
             justify-content: flex-start;
             height: 30vh;
+           
             .profile_banner_info{
                 left: 4rem;
             }
@@ -72,9 +99,9 @@ body{
                 }
             }
         }
-        .container{
-            padding: 2rem 4rem;
-        }
+        // .container{
+        //     padding: 2rem 4rem;
+        // }
         .footer{
             .foot-part-1{
                 .foot-img{
