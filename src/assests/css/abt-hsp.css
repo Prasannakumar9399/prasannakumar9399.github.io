@@ -1,3 +1,7 @@
+@media (max-width: 767px) {
+  body .profile_banner {
+    height: 40vh; } }
+
 body .profile_banner img {
   object-position: left; }
 

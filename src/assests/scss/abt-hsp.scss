@@ -4,6 +4,9 @@ $background_color :rgba(0,140,255,0.1);
 
 body{
     .profile_banner{
+        @media (max-width:767px){
+            height: 40vh;
+        }
         img{
         object-position: left;
         }
