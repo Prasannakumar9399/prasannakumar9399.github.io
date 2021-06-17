@@ -5,7 +5,7 @@ body .test_number {
       padding: 2rem 0 1rem 2rem; } }
   @media (min-width: 1024px) {
     body .test_number {
-      padding: 2rem 0 1rem 4rem; } }
+      padding: 2rem 0 0 4rem; } }
   body .test_number p {
     font-family: "Nexa Bold";
     color: gray; }
@@ -90,7 +90,7 @@ body .back_page {
             body .back_page .back_page_2 .tvastra_plan .tvastra_plan_head h4 {
               text-align: center; } }
         body .back_page .back_page_2 .tvastra_plan .tvastra_plan_head span {
-          font-family: 'Nexa Light';
+          font-family: "Nexa Light";
           line-height: 1.4rem; }
       body .back_page .back_page_2 .tvastra_plan .all_plans .plan {
         display: flex;
@@ -132,7 +132,7 @@ body .back_page {
           body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_footer .plan_price {
             display: flex; }
             body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_footer .plan_price span {
-              font-family: 'Nexa Light';
+              font-family: "Nexa Light";
               line-height: 1.4rem;
               font-family: "Nexa Bold"; }
           body .back_page .back_page_2 .tvastra_plan .all_plans .plan .plan_footer a {
@@ -158,7 +158,7 @@ body .back_page {
           padding: 0.4rem 0.7rem;
           border-radius: 13px;
           font-size: 0.7rem;
-          font-family: 'Nexa Light'; }
+          font-family: "Nexa Light"; }
       body .back_page .back_page_2 .tvastra_plan .all_plans .basic_plan {
         display: flex;
         flex-direction: column;
@@ -194,7 +194,8 @@ body .tvastra_review .review_star .review_1 {
   justify-content: center;
   align-items: center;
   color: #0272b1; }
-  body .tvastra_review .review_star .review_1 .fa, body .tvastra_review .review_star .review_1 h6 {
+  body .tvastra_review .review_star .review_1 .fa,
+  body .tvastra_review .review_star .review_1 h6 {
     color: #0272b1; }
   body .tvastra_review .review_star .review_1 h6 {
     font-size: 2.5rem;
@@ -205,7 +206,7 @@ body .tvastra_review .review_star .review_1 {
       font-size: 1.2rem;
       margin-right: 0.1rem; }
   body .tvastra_review .review_star .review_1 span {
-    font-family: 'Nexa Light';
+    font-family: "Nexa Light";
     line-height: 1.4rem;
     color: #0272b1; }
 
@@ -228,7 +229,7 @@ body .tvastra_review .review_star .review_2 {
     margin-top: 1.5rem; }
     body .tvastra_review .review_star .review_2 .star_bar .side {
       font-size: 1.3rem;
-      font-family: 'Nexa Bold';
+      font-family: "Nexa Bold";
       color: #0272b1; }
     body .tvastra_review .review_star .review_2 .star_bar .bar_container {
       margin-left: 1rem;
@@ -312,7 +313,7 @@ body .benefit_plus_member .ben_pls_mem {
     max-width: 285px;
     height: 6px;
     border-radius: 5px;
-    background-color: #CAE7FF; }
+    background-color: #cae7ff; }
 
 @media (min-width: 768px) {
   body .benefit_plus_member .beneft_member {
@@ -365,7 +366,7 @@ body .benefit_plus_member .beneft_member .benefit_2 {
     body .benefit_plus_member .beneft_member .benefit_2 {
       flex: 1; } }
   body .benefit_plus_member .beneft_member .benefit_2 span {
-    font-family: 'Nexa Light';
+    font-family: "Nexa Light";
     line-height: 1.4rem; }
   body .benefit_plus_member .beneft_member .benefit_2 h4 {
     padding-bottom: 1.5rem; }
@@ -384,25 +385,25 @@ body .benefit_plus_member .beneft_member .benefit_2 {
       body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp img {
         object-fit: contain; }
     body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_1 {
-      border: 2px solid #CAE7FF;
+      border: 2px solid #cae7ff;
       border-left: 0;
       border-top: 0; }
     body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_2 {
-      border: 2px solid #CAE7FF;
+      border: 2px solid #cae7ff;
       border-left: 0;
       border-top: 0;
       border-right: 0; }
     body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_3 {
-      border: 2px solid #CAE7FF;
+      border: 2px solid #cae7ff;
       border-left: 0;
       border-top: 0; }
     body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_4 {
-      border: 2px solid #CAE7FF;
+      border: 2px solid #cae7ff;
       border-left: 0;
       border-top: 0;
       border-right: 0; }
     body .benefit_plus_member .beneft_member .benefit_2 .top_hospitals .top_hsp_5 {
-      border: 2px solid #CAE7FF;
+      border: 2px solid #cae7ff;
       border-left: 0;
       border-top: 0;
       border-bottom: 0; }
@@ -453,7 +454,7 @@ body .three_services {
         margin-right: 1rem; }
       body .three_services .tvs_services .tvs_services_1 .ul_tvs p {
         text-align: left;
-        font-family: 'Nexa Light';
+        font-family: "Nexa Light";
         line-height: 1.4rem; }
     body .three_services .tvs_services .tvs_services_2 img {
       border-radius: 10px; }
@@ -497,7 +498,7 @@ body .disease_profile {
     @media (min-width: 1024px) {
       body .disease_profile .disease_profile_1 {
         grid-template-columns: repeat(4, 1fr);
-        padding: 2rem 4rem; } }
+        padding: 1rem 4rem; } }
     body .disease_profile .disease_profile_1 .dis_prof {
       display: flex;
       flex-direction: column;
@@ -581,7 +582,7 @@ body .love_tvastra .love_tvastra_plan {
           font-size: 1.1rem;
           line-height: 2.3rem; }
         body .love_tvastra .love_tvastra_plan .lov_tvs_pln .lov_tvs_detail .lov_detail_2 .plan_btn button {
-          background-color: #CAE7FF;
+          background-color: #cae7ff;
           border-radius: 5px;
           color: #0272b1;
           font-size: 0.7rem;

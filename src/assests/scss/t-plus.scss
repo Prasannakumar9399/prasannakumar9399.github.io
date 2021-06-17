@@ -1,11 +1,11 @@
 @mixin span_css {
-    font-family: 'Nexa Light';
+    font-family: "Nexa Light";
     line-height: 1.4rem;
 }
 
 @mixin icon_css {
     font-size: 1.3rem;
-    color: var(--blue-color)
+    color: var(--blue-color);
 }
 
 @mixin plus_btn {
@@ -16,47 +16,47 @@
     line-height: 0;
 }
 
-$dark-blue-color : rgb(2,114,177);
-$light-blue-color:#CAE7FF;
+$dark-blue-color: rgb(2, 114, 177);
+$light-blue-color: #cae7ff;
 
-body{
-    .test_number{
+body {
+    .test_number {
         padding-bottom: 1rem;
-        @media (min-width:768px){
-    padding: 2rem 0 1rem 2rem;
+        @media (min-width: 768px) {
+            padding: 2rem 0 1rem 2rem;
         }
-           @media (min-width:1024px){
-    padding: 2rem 0 1rem 4rem;
+        @media (min-width: 1024px) {
+            padding: 2rem 0 0 4rem;
         }
-        p{
+        p {
             font-family: "Nexa Bold";
             color: gray;
-            @media (min-width:768px){
+            @media (min-width: 768px) {
                 text-align: left;
             }
         }
     }
-    nav{
-        @media (min-width:1024px){
+    nav {
+        @media (min-width: 1024px) {
             padding: 1rem 6rem;
         }
-        .image-1{
+        .image-1 {
             width: 23%;
         }
     }
-    .back_page{
+    .back_page {
         display: flex;
         flex-direction: column;
-        .back_page_1{
+        .back_page_1 {
             position: relative;
             height: 75vh;
             display: flex;
             justify-content: center;
-            
-            img{
+
+            img {
                 object-position: left;
             }
-            .back_page_1_info{
+            .back_page_1_info {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -64,363 +64,356 @@ body{
                 position: absolute;
                 padding: 2rem 1rem;
                 height: 236px;
-                @media (min-width:768px) and (max-width:1023px){
+                @media (min-width: 768px) and (max-width: 1023px) {
                     height: 200px;
                     align-items: flex-start;
                     left: 2rem;
                     padding: 2rem 0;
                 }
-                @media (min-width:1024px){
+                @media (min-width: 1024px) {
                     height: 200px;
                     align-items: flex-start;
                     left: 6rem;
                     padding: 2rem 0;
                 }
-                
-                .btn{
-                    button{
+
+                .btn {
+                    button {
                         @include plus_btn;
                     }
                 }
-                .span_info{
+                .span_info {
                     text-align: center;
-                    span{
+                    span {
                         font-family: "Nexa Light";
                         line-height: 1.3rem;
                     }
                 }
             }
         }
-     .back_page_2{
-        display: flex;
-        justify-content: center;
-         height: 1370px;
-          background-image: linear-gradient(to bottom,rgb(181,214,233),rgb(255,255,255));
-      
-       @media (min-width:768px) and (max-width:1023px){
-           height: 530px;
-       }
-      @media (min-width:1024px){
-          height: 400px;
-      }
-          .tvastra_plan{
-        box-shadow: 0px 2px 10px 5px lightgrey;
-        position: absolute;
-        top: 300px;
-        background: #fff;
-        margin: 0 1rem;
-        border-radius: 5px;
-          .tvastra_plan_head{
-              border-bottom: 1px dotted gray;
-              text-align: center;
-              padding: 2rem 0rem;
-              margin: 0 1rem;
-                h4{
-                    margin-bottom: 1rem;
-                    @media screen and (min-width:1024px){
-                        text-align:center;
+        .back_page_2 {
+            display: flex;
+            justify-content: center;
+            height: 1370px;
+            background-image: linear-gradient(to bottom, rgb(181, 214, 233), rgb(255, 255, 255));
+
+            @media (min-width: 768px) and (max-width: 1023px) {
+                height: 530px;
+            }
+            @media (min-width: 1024px) {
+                height: 400px;
+            }
+            .tvastra_plan {
+                box-shadow: 0px 2px 10px 5px lightgrey;
+                position: absolute;
+                top: 300px;
+                background: #fff;
+                margin: 0 1rem;
+                border-radius: 5px;
+                .tvastra_plan_head {
+                    border-bottom: 1px dotted gray;
+                    text-align: center;
+                    padding: 2rem 0rem;
+                    margin: 0 1rem;
+                    h4 {
+                        margin-bottom: 1rem;
+                        @media screen and (min-width: 1024px) {
+                            text-align: center;
+                        }
+                    }
+                    span {
+                        @include span_css;
                     }
                 }
-                span{
-               @include span_css;
+                .all_plans {
+                    .plan {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 3rem;
+                        .plan_title {
+                            padding: 1rem;
+                            border-bottom: 1px dotted gray;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            @media (min-width: 768px) and (max-width: 930px) {
+                                height: 100px;
+                            }
+                        }
+                        .plan_body {
+                            ul {
+                                text-align: center;
+                                padding: 2rem;
+                                padding-bottom: 3rem;
+                                li {
+                                    padding: 0;
+                                    font-size: 1rem;
+                                    line-height: 1.3rem;
+                                    font-family: "Nexa Light";
+                                    color: black;
+                                    padding-bottom: 1rem;
+                                }
+                            }
+                            @media (min-width: 768px) and (max-width: 1024px) {
+                                height: 345px;
+                            }
+                            @media (min-width: 1024px) {
+                                height: 250px;
+                            }
+                        }
+                        .plan_footer {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .plan_price {
+                                display: flex;
+                                span {
+                                    @include span_css;
+                                    font-family: "Nexa Bold";
+                                }
+                            }
+                            a {
+                                font-size: 1rem;
+                                color: var(--blue-color);
+                                font-family: "Nexa Bold";
+                                padding: 1rem 0;
+                            }
+                            button {
+                                background-color: var(--blue-color);
+                                border-radius: 5px;
+                                padding: 1.1rem 0.8rem;
+                                color: #fff;
+                                line-height: 0;
+                                font-family: "Nexa Bold";
+                            }
+                        }
+                    }
+                    .advance_plan {
+                        background-image: linear-gradient(to bottom, rgb(181, 214, 233), rgb(255, 255, 255));
+                        position: relative;
+
+                        .popular_btn {
+                            position: absolute;
+                            top: -13px;
+                            background-color: green;
+                            color: #fff;
+                            padding: 0.4rem 0.7rem;
+                            border-radius: 13px;
+                            font-size: 0.7rem;
+                            font-family: "Nexa Light";
+                        }
+                    }
+                    .basic_plan {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0 1rem;
+                    }
                 }
-               
-          }
-          .all_plans{
-             .plan{
+            }
+        }
+    }
+    .tvastra_review {
+        @media (min-width: 768px) and (max-width: 1023px) {
+            padding-top: 5rem;
+        }
+        @media (min-width: 1024px) {
+            padding: 2rem 4rem;
+        }
+        .tvst_review_head {
+            @media (min-width: 1024px) {
+                h4 {
+                    text-align: center;
+                }
+                p {
+                    text-align: center;
+                }
+            }
+
+            p {
+                padding: 1.5rem 0;
+            }
+        }
+        .review_star {
+            @media (min-width: 768px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem 0;
+            }
+            .review_1 {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin-bottom: 3rem;
-                .plan_title{
-                     padding: 1rem;
-                     border-bottom: 1px dotted gray;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                      @media (min-width:768px) and (max-width:930px){
-                          height: 100px;
-                      }
-                }
-                .plan_body{
-                      ul{
-                          text-align: center;
-                          padding:2rem;
-                          padding-bottom: 3rem;
-                          li{
-                              padding: 0;
-                              font-size: 1rem;
-                              line-height: 1.3rem;
-                              font-family: "Nexa Light";
-                              color: black;
-                              padding-bottom: 1rem;
-                          }
-                       
-                      }
-                      @media (min-width:768px) and (max-width:1024px){
-                        height: 345px;
-                    }
-                  @media (min-width:1024px){
-                      height:250px;
-                  }
-                }
-                .plan_footer{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                   .plan_price{
-                       display: flex;
-                       span{
-                        @include span_css;
-                        font-family: "Nexa Bold";
-                          }
-                   }
-                   a{
-                      font-size: 1rem;
-                      color: var(--blue-color);
-                      font-family: "Nexa Bold";
-                      padding: 1rem 0;
-                }
-                button{
-                    background-color: var(--blue-color);
-                    border-radius: 5px;
-                    padding: 1.1rem 0.8rem;
-                    color: #fff;
-                    line-height: 0;
-                   font-family: "Nexa Bold";
-                }
-                }
-             }
-             .advance_plan{
-                background-image: linear-gradient(to bottom,rgb(181,214,233),rgb(255,255,255));
-                position: relative;
-
-                .popular_btn{
-                    position: absolute;
-                    top: -13px;
-                    background-color: green;
-                    color: #fff;
-                    padding: 0.4rem 0.7rem;
-                    border-radius: 13px;
-                    font-size: 0.7rem;
-                    font-family: 'Nexa Light';
-                }
-             }
-             .basic_plan{
-                 display: flex;
-                 flex-direction: column;
-                 padding: 0 1rem;
-             }
-          }
-      }
-     
-        }
-    }
-    .tvastra_review{
-
-        @media (min-width:768px) and (max-width:1023px){
-            padding-top: 5rem;
-        }
-        @media (min-width:1024px){
-            padding: 2rem 4rem;
-        }
-     .tvst_review_head{
-
-      @media (min-width:1024px){
-          h4{
-              text-align: center;
-          }
-          p{
-              text-align: center;
-          }
-      }
-
-         p{
-             padding: 1.5rem 0;
-         }
-     }
-     .review_star{
-         @media (min-width:768px){
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                padding:1rem 0;
-         }
-         .review_1{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: $dark-blue-color;
-
-            @media (min-width:768px){
-            //   flex: 1;
-             }
-            .fa,h6{
                 color: $dark-blue-color;
-            }
-            h6{
-                font-size: 2.5rem;
-                line-height: 2.8rem;
-                
-            @media (min-width:768px){
-                // font-size: 3.5rem;
-                // line-height: 3.7rem;
-               }
-            }
-           .star{
-           margin: 0.5rem 0 1rem 0;
-            i{
-                font-size: 1.2rem;
-                    margin-right: 0.1rem;
-            }
-           }
-              span{
-               @include span_css;
-               color: $dark-blue-color;
-              }
-           
-         }
-         .review_2{
-            justify-content: center;
-            margin-top: 1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            @media (min-width:768px){
-                // flex: 1;
-                // align-items: flex-start;
-                margin: 0;
-                padding-left: 3rem;
-               }
 
-            
-             .star_bar{
-                display: flex;
-                align-items: center;
-                justify-content: space-around;
-                width: 100%;
-                max-width: 260px;
-                margin-top: 1.5rem;
-
-                .side{
-                    font-size: 1.3rem;
-                    font-family: 'Nexa Bold';
+                @media (min-width: 768px) {
+                    //   flex: 1;
+                }
+                .fa,
+                h6 {
                     color: $dark-blue-color;
                 }
-                 .bar_container{
-                     margin-left: 1rem;
-                    height: 1rem;
-                   width: 200px;
-                     display: flex;
-                     border-radius: 10px;
-                     background-color: var(--anchr-color);
-                .middle{
-                    border-radius: 10px;
-                }
-                 }
-                 .bar_5{
-                    .middle{
-                      width: 10%;
-                      background-color: $dark-blue-color;
-                    }
-                }
-                .bar_4{
-                    .middle{
-                      width: 20%;
-                      background-color: $dark-blue-color;
-                    }
-                }
-                .bar_3{
-                    .middle{
-                      width: 30%;
-                      background-color: $dark-blue-color;
-                    }
-                }
-                .bar_2{
-                    .middle{
-                      width: 40%;
-                      background-color: $dark-blue-color;
-                    }
-                }
-                .bar_1{
-                    .middle{
-                      width: 60%;
-                      background-color: $dark-blue-color;
-                    }
-                }
-             }
-           .start_1_bar{
-                   @media (min-width:768px){
-                       margin: 0;
-                   }
-               }
-         }
-   
-     }
-     .add_info{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-         margin: 2rem 0;
-         grid-gap: 1rem;
+                h6 {
+                    font-size: 2.5rem;
+                    line-height: 2.8rem;
 
-         @media (min-width:768px){
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-         }
-        .add_info_card{
-           display: flex;
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
-           color: $dark-blue-color;
-           text-align: center;
-           i{
-            color: $dark-blue-color;
-            font-size: 2.2rem;
-           }
-           h5{
-            color: $dark-blue-color;
-            padding: 0.5rem 0;
-           }
-           span{
-               font-family: "Nexa Light";
-               line-height: 1.3rem;
-           }
-        }
-        .add_info_4{
-            .doct_appoint{
-              border: 1px solid var(--blue-color);
-                width: 2rem;
-                height: 2rem;
+                    @media (min-width: 768px) {
+                        // font-size: 3.5rem;
+                        // line-height: 3.7rem;
+                    }
+                }
+                .star {
+                    margin: 0.5rem 0 1rem 0;
+                    i {
+                        font-size: 1.2rem;
+                        margin-right: 0.1rem;
+                    }
+                }
+                span {
+                    @include span_css;
+                    color: $dark-blue-color;
+                }
+            }
+            .review_2 {
+                justify-content: center;
+                margin-top: 1rem;
                 display: flex;
+                flex-direction: column;
+                align-items: center;
+                @media (min-width: 768px) {
+                    // flex: 1;
+                    // align-items: flex-start;
+                    margin: 0;
+                    padding-left: 3rem;
+                }
+
+                .star_bar {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    max-width: 260px;
+                    margin-top: 1.5rem;
+
+                    .side {
+                        font-size: 1.3rem;
+                        font-family: "Nexa Bold";
+                        color: $dark-blue-color;
+                    }
+                    .bar_container {
+                        margin-left: 1rem;
+                        height: 1rem;
+                        width: 200px;
+                        display: flex;
+                        border-radius: 10px;
+                        background-color: var(--anchr-color);
+                        .middle {
+                            border-radius: 10px;
+                        }
+                    }
+                    .bar_5 {
+                        .middle {
+                            width: 10%;
+                            background-color: $dark-blue-color;
+                        }
+                    }
+                    .bar_4 {
+                        .middle {
+                            width: 20%;
+                            background-color: $dark-blue-color;
+                        }
+                    }
+                    .bar_3 {
+                        .middle {
+                            width: 30%;
+                            background-color: $dark-blue-color;
+                        }
+                    }
+                    .bar_2 {
+                        .middle {
+                            width: 40%;
+                            background-color: $dark-blue-color;
+                        }
+                    }
+                    .bar_1 {
+                        .middle {
+                            width: 60%;
+                            background-color: $dark-blue-color;
+                        }
+                    }
+                }
+                .start_1_bar {
+                    @media (min-width: 768px) {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .add_info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 2rem 0;
+            grid-gap: 1rem;
+
+            @media (min-width: 768px) {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            .add_info_card {
+                display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                span{
-                    font-size: 0.5rem;
-                    line-height: 0.5rem;
+                color: $dark-blue-color;
+                text-align: center;
+                i {
+                    color: $dark-blue-color;
+                    font-size: 2.2rem;
+                }
+                h5 {
+                    color: $dark-blue-color;
+                    padding: 0.5rem 0;
+                }
+                span {
+                    font-family: "Nexa Light";
+                    line-height: 1.3rem;
+                }
+            }
+            .add_info_4 {
+                .doct_appoint {
+                    border: 1px solid var(--blue-color);
+                    width: 2rem;
+                    height: 2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span {
+                        font-size: 0.5rem;
+                        line-height: 0.5rem;
+                    }
                 }
             }
         }
     }
-    }
-    .benefit_plus_member{
-        @media (min-width:768px){
+    .benefit_plus_member {
+        @media (min-width: 768px) {
             padding-top: 0;
         }
-        .ben_pls_mem{
+        .ben_pls_mem {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            @media (min-width:768px){
+            @media (min-width: 768px) {
                 padding-bottom: 1rem;
             }
-            p{
-              padding-bottom: 0.2rem;
+            p {
+                padding-bottom: 0.2rem;
             }
-            span{
+            span {
                 width: 100%;
                 max-width: 285px;
                 height: 6px;
@@ -428,448 +421,445 @@ body{
                 background-color: $light-blue-color;
             }
         }
-        .beneft_member{
-            @media (min-width:768px){
+        .beneft_member {
+            @media (min-width: 768px) {
                 display: flex;
             }
-            @media (min-width:1024px){
+            @media (min-width: 1024px) {
                 justify-content: space-between;
             }
-            .benefit_1{
-                @media (min-width:768px){
-                   flex: 1;
-                   padding-right: 2rem;
+            .benefit_1 {
+                @media (min-width: 768px) {
+                    flex: 1;
+                    padding-right: 2rem;
                 }
-                @media (min-width:1024px){
+                @media (min-width: 1024px) {
                     flex: 0.8;
                 }
-                h4{
+                h4 {
                     padding-bottom: 1.5rem;
                     padding-top: 1rem;
-                    @media (min-width:768px){
+                    @media (min-width: 768px) {
                         text-align: left;
                         // padding-top: 0;
                     }
                 }
-                .ben_mem_para{
+                .ben_mem_para {
                     padding: 0 1.2rem;
-                    @media (min-width:768px){
-                    padding-left: 0;}
-                    .ben_para{
+                    @media (min-width: 768px) {
+                        padding-left: 0;
+                    }
+                    .ben_para {
                         display: flex;
                         justify-content: center;
                         align-items: flex-start;
                         padding-bottom: 1.2rem;
 
-                        i{
-                          font-size: 1.3rem;
-                            color: var(--blue-color)
+                        i {
+                            font-size: 1.3rem;
+                            color: var(--blue-color);
                         }
-                        p{
+                        p {
                             text-align: left;
                             font-size: 1rem;
                             padding-left: 1rem;
                         }
-
                     }
                 }
             }
-            .benefit_2{
+            .benefit_2 {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                
-                @media (min-width:768px) and (max-width:1023px){
-                    flex:1;
+
+                @media (min-width: 768px) and (max-width: 1023px) {
+                    flex: 1;
                 }
-                span{
+                span {
                     @include span_css;
                 }
-                h4{
+                h4 {
                     padding-bottom: 1.5rem;
-                    @media (min-width:768px) and (max-width:1023px){
-                     padding-top: 1rem;
+                    @media (min-width: 768px) and (max-width: 1023px) {
+                        padding-top: 1rem;
                     }
                 }
-                .top_hospitals{
-                display: flex;
-                flex-direction: column;
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                margin-bottom: 1rem;
-                .top_hsp{
-                    height: 120px;
-                    padding: 1rem;
-                    img{
-                       object-fit: contain;
+                .top_hospitals {
+                    display: flex;
+                    flex-direction: column;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    margin-bottom: 1rem;
+                    .top_hsp {
+                        height: 120px;
+                        padding: 1rem;
+                        img {
+                            object-fit: contain;
+                        }
+                    }
+                    .top_hsp_1 {
+                        border: 2px solid $light-blue-color;
+                        border-left: 0;
+                        border-top: 0;
+                    }
+                    .top_hsp_2 {
+                        border: 2px solid $light-blue-color;
+                        border-left: 0;
+                        border-top: 0;
+                        border-right: 0;
+                    }
+                    .top_hsp_3 {
+                        border: 2px solid $light-blue-color;
+                        border-left: 0;
+                        border-top: 0;
+                    }
+                    .top_hsp_4 {
+                        border: 2px solid $light-blue-color;
+                        border-left: 0;
+                        border-top: 0;
+                        border-right: 0;
+                    }
+                    .top_hsp_5 {
+                        border: 2px solid $light-blue-color;
+                        border-left: 0;
+                        border-top: 0;
+                        border-bottom: 0;
                     }
                 }
-                .top_hsp_1{
-                    border: 2px solid $light-blue-color;
-                    border-left: 0;
-                    border-top: 0;
-                }
-                .top_hsp_2{
-                    border: 2px solid $light-blue-color;
-                    border-left: 0;
-                    border-top: 0;
-                    border-right: 0;
-                }
-                .top_hsp_3{
-                    border: 2px solid $light-blue-color;
-                    border-left: 0;
-                    border-top: 0;
-                }
-                .top_hsp_4{
-                    border: 2px solid $light-blue-color;
-                    border-left: 0;
-                    border-top: 0;
-                    border-right: 0;
-                }
-                .top_hsp_5{
-                    border: 2px solid $light-blue-color;
-                    border-left: 0;
-                    border-top: 0;
-                    border-bottom: 0;
-                }
-                }
-
             }
         }
     }
-    .three_services{
-        @media (min-width:768px){
+    .three_services {
+        @media (min-width: 768px) {
             padding-bottom: 0;
         }
-     padding-top: 0;
-     p{
-         font-size: 1rem;
-     }
-        .tvs_services{
+        padding-top: 0;
+        p {
+            font-size: 1rem;
+        }
+        .tvs_services {
             display: flex;
             flex-direction: column;
-            @media (min-width:768px){
+            @media (min-width: 768px) {
                 padding-bottom: 2rem;
                 justify-content: space-between;
             }
-            @media (min-width:1024px){
+            @media (min-width: 1024px) {
                 padding-bottom: 4rem;
             }
-            .tvs_services_1{
-           @media (min-width:768px){
-               width: 53%;;
-           }
-           @media (min-width:1024px){
-             padding-right: 7rem;
-             width: 63%;
-           }
-                h4{
-                    padding:2rem 0;
+            .tvs_services_1 {
+                @media (min-width: 768px) {
+                    width: 53%;
+                }
+                @media (min-width: 1024px) {
+                    padding-right: 7rem;
+                    width: 63%;
+                }
+                h4 {
+                    padding: 2rem 0;
                     font-size: 1.8rem;
                     line-height: 2rem;
-                    @media (min-width:768px){
+                    @media (min-width: 768px) {
                         padding: 0;
                         padding-bottom: 2rem;
                         text-align: left;
                     }
                 }
-                #rmv_padd{
+                #rmv_padd {
                     padding-top: 0;
                 }
-              .ul_tvs{
-                display: flex;
-                justify-content: flex-start;
-                align-items: flex-start;
-                margin-bottom: 1rem;
-               
-                  i{
-                  @include icon_css;
-                  margin-right: 1rem;
-                  }
-                  p{
-                    text-align: left;
-                    @include span_css;
-                  }
-              }
+                .ul_tvs {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    margin-bottom: 1rem;
+
+                    i {
+                        @include icon_css;
+                        margin-right: 1rem;
+                    }
+                    p {
+                        text-align: left;
+                        @include span_css;
+                    }
+                }
             }
-            .tvs_services_2{
-                img{
+            .tvs_services_2 {
+                img {
                     border-radius: 10px;
                 }
-                @media (min-width:768px){
-                   width: 44%;
+                @media (min-width: 768px) {
+                    width: 44%;
                 }
-                @media (min-width:1024px){
+                @media (min-width: 1024px) {
                     width: 28%;
                 }
             }
         }
-        .one_tvastra_services{
-            @media (min-width:768px){
-             flex-direction: row-reverse;
+        .one_tvastra_services {
+            @media (min-width: 768px) {
+                flex-direction: row-reverse;
             }
         }
-        .two_tvastra_services{
-            @media (min-width:768px){
-      flex-direction: row;
+        .two_tvastra_services {
+            @media (min-width: 768px) {
+                flex-direction: row;
             }
         }
-        .three_tvastra_services{
-
-            .tvs_services_2{
-                p{
+        .three_tvastra_services {
+            .tvs_services_2 {
+                p {
                     font-family: "Nexa Bold";
                     margin-top: 2rem;
                     font-size: 0.9rem;
-                    @media (min-width:768px){
+                    @media (min-width: 768px) {
                         text-align: left;
                     }
                 }
             }
-            @media  (min-width:768px){
-            flex-direction: row-reverse;
+            @media (min-width: 768px) {
+                flex-direction: row-reverse;
             }
-
         }
     }
-    .disease_profile{
+    .disease_profile {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .disease_profile_1{
-        padding: 0 1rem 2rem 1rem;
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-        @media (min-width:768px){
-            padding: 0 2rem 2rem 2rem;
-        }
-        @media (min-width:1024px){
-            grid-template-columns: repeat(4,1fr);
-                padding: 2rem 4rem;
-        }
-        .dis_prof{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            height: 220px;
-            box-shadow: 5px -5px 12px 2px #e5e2e2;
-
-            h6{
-              font-size: 1.1rem;
-              line-height: 1.5rem;
+        .disease_profile_1 {
+            padding: 0 1rem 2rem 1rem;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            @media (min-width: 768px) {
+                padding: 0 2rem 2rem 2rem;
             }
-            p{
-               font-size: 0.9rem;
+            @media (min-width: 1024px) {
+                grid-template-columns: repeat(4, 1fr);
+                padding: 1rem 4rem;
             }
-            .dis_img{
-               width: 60px;
-              
-            }
-        }
-    }
-    .dot_container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 28px;
-        // padding-bottom: 2rem;
-        .dot{
-            width: 10px;
-            height: 10px;
-           background-color: $dark-blue-color;
-            border-radius: 50%;
-        }
-        .dot_2{
-            background-color: rgb(228, 226, 226);
-        }
-    }
-  }
-  .love_tvastra{
-      @media (min-width:1024px){
-          padding: 3rem 4rem;
-      }
-      .love_tvs_head{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding-bottom: 1.2rem;
-
-          @media (min-width:768px){
-              justify-content: flex-start;
-          }
-          .love_btn{
-              button{
-                  @include plus_btn;
-                  margin-left: 0.5rem;
-              }
-          }
-      }
-      .love_tvastra_plan{
-          display: grid;
-          grid-gap: 10px;
-          @media (min-width:768px){
-              grid-template-columns: repeat(2,1fr);
-          }
-          @media (min-width:1024px){
-            grid-template-columns: repeat(3,1fr);
-        }
-        .lov_tvs_pln{
-            box-shadow: 3px -1px 13px 0px #e5e2e2;
-            padding: 1rem 1rem;
-            // margin-top: 0.8rem;
-            .lov_tvs_para{
-                padding-bottom: 0.8rem;
-                p{
-                    text-align: left;
-                    font-family: "Nexa Bold";
-                    font-size: 1.1rem;
-                }
-            }
-            .lov_tvs_detail{
+            .dis_prof {
                 display: flex;
-                /* justify-content: center; */
+                flex-direction: column;
                 align-items: center;
-            
-           .lov_detail_1{
-               img{
-                border-radius: 50%;
-                width: 70px;
-                height: 72px;
-               }
-           }
-           .lov_detail_2{
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            padding-left: 2rem;
+                justify-content: space-evenly;
+                height: 220px;
+                box-shadow: 5px -5px 12px 2px #e5e2e2;
 
-            h6{
-             text-align: left;
-             font-size: 1.1rem;
-             line-height: 2.3rem;
-            }
-            .plan_btn{
-                button{
-               background-color: $light-blue-color;
-               border-radius: 5px;
-               color: $dark-blue-color;
-               font-size: 0.7rem;
-               font-family: "Nexa Bold";
+                h6 {
+                    font-size: 1.1rem;
+                    line-height: 1.5rem;
+                }
+                p {
+                    font-size: 0.9rem;
+                }
+                .dis_img {
+                    width: 60px;
                 }
             }
-           }
         }
-        }
-      }
-  }
-  .freq_ask_ques{
-      @media (min-width:1024px){
-          padding-top: 2rem;
-      }
-      .freq_head{
-          @media (min-width:768px){
-              h4{
-                  text-align: left;
-              }
-          }
-      }
-   .freq_body{
-       .freq_drpdwn{
-        .freq_drpdwn_btn{
+        .dot_container {
             display: flex;
-            align-items: center;
-            margin-top: 1.5rem;
             justify-content: space-between;
-           .btn_part_1{
-               h5{
-                   text-align: left;
-                   color: $dark-blue-color;
-                   font-size: 1.1rem;
-               }
-           }
-           .btn_part_2{
-            background-color: rgba(0, 140, 255, 0.1);
-            height: 1.6rem;
-            width: 1.6rem;
-            border-radius: 50%;
+            align-items: center;
+            width: 28px;
+            // padding-bottom: 2rem;
+            .dot {
+                width: 10px;
+                height: 10px;
+                background-color: $dark-blue-color;
+                border-radius: 50%;
+            }
+            .dot_2 {
+                background-color: rgb(228, 226, 226);
+            }
+        }
+    }
+    .love_tvastra {
+        @media (min-width: 1024px) {
+            padding: 3rem 4rem;
+        }
+        .love_tvs_head {
             display: flex;
             justify-content: center;
             align-items: center;
-               i{
-                font-size: 1.2rem;
-                color: var(--blue-color);
-               }
-           }
-        }
-        .prf_drpdwn-content{
-            background-color: rgba(0, 140, 255, 0.1);
-            .pad_cont{
-                padding: 0.5rem;
-                margin-top: 0.6rem;
+            padding-bottom: 1.2rem;
+
+            @media (min-width: 768px) {
+                justify-content: flex-start;
             }
-            p{
-                text-align: left;
+            .love_btn {
+                button {
+                    @include plus_btn;
+                    margin-left: 0.5rem;
+                }
             }
         }
-       }
-   }
-  }
-  .footer{
-@media (min-width:1024px){
-    padding: 2rem 4rem;
-}
-    .foot-part-1{
-        .foot-img{
-            @media (min-width:1023px){
-                width: 15%;
+        .love_tvastra_plan {
+            display: grid;
+            grid-gap: 10px;
+            @media (min-width: 768px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @media (min-width: 1024px) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .lov_tvs_pln {
+                box-shadow: 3px -1px 13px 0px #e5e2e2;
+                padding: 1rem 1rem;
+                // margin-top: 0.8rem;
+                .lov_tvs_para {
+                    padding-bottom: 0.8rem;
+                    p {
+                        text-align: left;
+                        font-family: "Nexa Bold";
+                        font-size: 1.1rem;
+                    }
+                }
+                .lov_tvs_detail {
+                    display: flex;
+                    /* justify-content: center; */
+                    align-items: center;
+
+                    .lov_detail_1 {
+                        img {
+                            border-radius: 50%;
+                            width: 70px;
+                            height: 72px;
+                        }
+                    }
+                    .lov_detail_2 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        padding-left: 2rem;
+
+                        h6 {
+                            text-align: left;
+                            font-size: 1.1rem;
+                            line-height: 2.3rem;
+                        }
+                        .plan_btn {
+                            button {
+                                background-color: $light-blue-color;
+                                border-radius: 5px;
+                                color: $dark-blue-color;
+                                font-size: 0.7rem;
+                                font-family: "Nexa Bold";
+                            }
+                        }
+                    }
+                }
             }
         }
     }
-      .foot-part-2{
-          .social-media{
-              width: 50%;
-              @media (min-width:768px){
-                  width: 20%;
-              }
-               @media (min-width:1023px){
-                  width: 15%;
-              }
-              i{
-                  font-size: 20px;
-              }
-          }
-          #last{
-              font-size: 1rem;
-          }
-      }
-  }
+    .freq_ask_ques {
+        @media (min-width: 1024px) {
+            padding-top: 2rem;
+        }
+        .freq_head {
+            @media (min-width: 768px) {
+                h4 {
+                    text-align: left;
+                }
+            }
+        }
+        .freq_body {
+            .freq_drpdwn {
+                .freq_drpdwn_btn {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 1.5rem;
+                    justify-content: space-between;
+                    .btn_part_1 {
+                        h5 {
+                            text-align: left;
+                            color: $dark-blue-color;
+                            font-size: 1.1rem;
+                        }
+                    }
+                    .btn_part_2 {
+                        background-color: rgba(0, 140, 255, 0.1);
+                        height: 1.6rem;
+                        width: 1.6rem;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        i {
+                            font-size: 1.2rem;
+                            color: var(--blue-color);
+                        }
+                    }
+                }
+                .prf_drpdwn-content {
+                    background-color: rgba(0, 140, 255, 0.1);
+                    .pad_cont {
+                        padding: 0.5rem;
+                        margin-top: 0.6rem;
+                    }
+                    p {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        @media (min-width: 1024px) {
+            padding: 2rem 4rem;
+        }
+        .foot-part-1 {
+            .foot-img {
+                @media (min-width: 1023px) {
+                    width: 15%;
+                }
+            }
+        }
+        .foot-part-2 {
+            .social-media {
+                width: 50%;
+                @media (min-width: 768px) {
+                    width: 20%;
+                }
+                @media (min-width: 1023px) {
+                    width: 15%;
+                }
+                i {
+                    font-size: 20px;
+                }
+            }
+            #last {
+                font-size: 1rem;
+            }
+        }
+    }
 }
 
-@media screen and (min-width:768px){
-    body .back_page{
-    .back_page_2 {
-        top: 301px;
-        .tvastra_plan {
-            margin: 0 2rem;
-            // @media (min-width:1024px){
-            //     margin:0 4rem;
-            // }
-            .all_plans {
-    .plan {
-        justify-content: flex-start;
-        .plan_title{
-            width: 95%;
+@media screen and (min-width: 768px) {
+    body .back_page {
+        .back_page_2 {
+            top: 301px;
+            .tvastra_plan {
+                margin: 0 2rem;
+                // @media (min-width:1024px){
+                //     margin:0 4rem;
+                // }
+                .all_plans {
+                    .plan {
+                        justify-content: flex-start;
+                        .plan_title {
+                            width: 95%;
+                        }
+                    }
+                    .basic_plan {
+                        flex-direction: row;
+                    }
+                }
+            }
         }
     }
-    .basic_plan{
-        flex-direction: row;
-    }
 }
-}
-}
-}}
