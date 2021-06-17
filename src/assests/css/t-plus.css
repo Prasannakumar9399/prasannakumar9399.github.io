@@ -29,7 +29,7 @@ body .back_page {
         body .back_page .back_page_1 .back_page_1_info {
           height: 200px;
           align-items: flex-start;
-          left: 6rem;
+          left: 4rem;
           padding: 2rem 0; } }
       body .back_page .back_page_1 .back_page_1_info .btn button {
         background-color: var(--blue-color);
@@ -453,7 +453,8 @@ body .disease_profile {
         padding-top: 2rem; } }
     @media (min-width: 1024px) {
       body .disease_profile .disease_profile_1 {
-        grid-template-columns: repeat(4, 1fr); } }
+        grid-template-columns: repeat(4, 1fr);
+        padding: 2rem 4rem; } }
     body .disease_profile .disease_profile_1 .dis_prof {
       display: flex;
       flex-direction: column;

@@ -54,7 +54,7 @@ body{
                 @media (min-width:1024px){
                     height: 200px;
                     align-items: flex-start;
-                    left: 6rem;
+                    left: 4rem;
                     padding: 2rem 0;
                 }
                 
@@ -594,6 +594,7 @@ body{
         }
         @media (min-width:1024px){
             grid-template-columns: repeat(4,1fr);
+                padding: 2rem 4rem;
         }
         .dis_prof{
             display: flex;
@@ -782,6 +783,9 @@ body{
         top: 301px;
         .tvastra_plan {
             margin: 0 2rem;
+            // @media (min-width:1024px){
+            //     margin:0 4rem;
+            // }
             .all_plans {
     .plan {
         justify-content: flex-start;
