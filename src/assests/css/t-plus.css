@@ -1,3 +1,18 @@
+body .test_number {
+  padding-bottom: 1rem; }
+  @media (min-width: 768px) {
+    body .test_number {
+      padding: 2rem 0 1rem 2rem; } }
+  @media (min-width: 1024px) {
+    body .test_number {
+      padding: 2rem 0 1rem 4rem; } }
+  body .test_number p {
+    font-family: "Nexa Bold";
+    color: gray; }
+    @media (min-width: 768px) {
+      body .test_number p {
+        text-align: left; } }
+
 @media (min-width: 1024px) {
   body nav {
     padding: 1rem 6rem; } }
@@ -278,13 +293,20 @@ body .tvastra_review .add_info {
       font-size: 0.5rem;
       line-height: 0.5rem; }
 
+@media (min-width: 768px) {
+  body .benefit_plus_member {
+    padding-top: 0; } }
+
 body .benefit_plus_member .ben_pls_mem {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media (min-width: 768px) {
+    body .benefit_plus_member .ben_pls_mem {
+      padding-bottom: 1rem; } }
   body .benefit_plus_member .ben_pls_mem p {
-    padding-bottom: 0.8rem; }
+    padding-bottom: 0.2rem; }
   body .benefit_plus_member .ben_pls_mem span {
     width: 100%;
     max-width: 285px;
@@ -309,11 +331,11 @@ body .benefit_plus_member .ben_pls_mem {
   body .benefit_plus_member .beneft_member .benefit_1 {
     flex: 0.8; } }
 
-body .benefit_plus_member .beneft_member .benefit_1 h3 {
+body .benefit_plus_member .beneft_member .benefit_1 h4 {
   padding-bottom: 1.5rem;
   padding-top: 1rem; }
   @media (min-width: 768px) {
-    body .benefit_plus_member .beneft_member .benefit_1 h3 {
+    body .benefit_plus_member .beneft_member .benefit_1 h4 {
       text-align: left; } }
 
 body .benefit_plus_member .beneft_member .benefit_1 .ben_mem_para {
@@ -387,6 +409,9 @@ body .benefit_plus_member .beneft_member .benefit_2 {
 
 body .three_services {
   padding-top: 0; }
+  @media (min-width: 768px) {
+    body .three_services {
+      padding-bottom: 0; } }
   body .three_services p {
     font-size: 1rem; }
   body .three_services .tvs_services {
@@ -468,7 +493,7 @@ body .disease_profile {
     width: 100%; }
     @media (min-width: 768px) {
       body .disease_profile .disease_profile_1 {
-        padding-top: 2rem; } }
+        padding: 0 2rem 2rem 2rem; } }
     @media (min-width: 1024px) {
       body .disease_profile .disease_profile_1 {
         grid-template-columns: repeat(4, 1fr);
@@ -499,6 +524,10 @@ body .disease_profile {
       border-radius: 50%; }
     body .disease_profile .dot_container .dot_2 {
       background-color: #e4e2e2; }
+
+@media (min-width: 1024px) {
+  body .love_tvastra {
+    padding: 3rem 4rem; } }
 
 body .love_tvastra .love_tvs_head {
   display: flex;
@@ -563,7 +592,7 @@ body .love_tvastra .love_tvastra_plan {
     padding-top: 2rem; } }
 
 @media (min-width: 768px) {
-  body .freq_ask_ques .freq_head h3 {
+  body .freq_ask_ques .freq_head h4 {
     text-align: left; } }
 
 body .freq_ask_ques .freq_body .freq_drpdwn .freq_drpdwn_btn {
