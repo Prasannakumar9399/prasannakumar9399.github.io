@@ -375,7 +375,8 @@ body {
                 }
                 h5 {
                     color: $dark-blue-color;
-                    padding: 0.5rem 0;
+                    padding: 1rem 0;
+                    font-size: 1.2rem;
                 }
                 span {
                     font-family: "Nexa Light";
@@ -402,6 +403,9 @@ body {
         @media (min-width: 768px) {
             padding-top: 0;
         }
+        @media (min-width: 1024px) {
+            padding-bottom: 1.5rem;
+        }
         .ben_pls_mem {
             display: flex;
             flex-direction: column;
@@ -409,6 +413,9 @@ body {
             align-items: center;
             @media (min-width: 768px) {
                 padding-bottom: 1rem;
+            }
+            @media (min-width: 1024px) {
+                padding-bottom: 1.5rem;
             }
             p {
                 padding-bottom: 0.2rem;
@@ -546,7 +553,8 @@ body {
                 justify-content: space-between;
             }
             @media (min-width: 1024px) {
-                padding-bottom: 4rem;
+                padding-top: 3rem;
+                padding-bottom: 2rem;
             }
             .tvs_services_1 {
                 @media (min-width: 768px) {
@@ -680,7 +688,7 @@ body {
     }
     .love_tvastra {
         @media (min-width: 1024px) {
-            padding: 3rem 4rem;
+            padding: 2.5rem 4rem;
         }
         .love_tvs_head {
             display: flex;
@@ -758,7 +766,7 @@ body {
     }
     .freq_ask_ques {
         @media (min-width: 1024px) {
-            padding-top: 2rem;
+            padding-top: 1rem;
         }
         .freq_head {
             @media (min-width: 768px) {
@@ -803,6 +811,7 @@ body {
                     }
                     p {
                         text-align: left;
+                        font-size: 1rem;
                     }
                 }
             }

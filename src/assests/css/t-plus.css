@@ -279,7 +279,8 @@ body .tvastra_review .add_info {
       font-size: 2.2rem; }
     body .tvastra_review .add_info .add_info_card h5 {
       color: #0272b1;
-      padding: 0.5rem 0; }
+      padding: 1rem 0;
+      font-size: 1.2rem; }
     body .tvastra_review .add_info .add_info_card span {
       font-family: "Nexa Light";
       line-height: 1.3rem; }
@@ -298,6 +299,10 @@ body .tvastra_review .add_info {
   body .benefit_plus_member {
     padding-top: 0; } }
 
+@media (min-width: 1024px) {
+  body .benefit_plus_member {
+    padding-bottom: 1.5rem; } }
+
 body .benefit_plus_member .ben_pls_mem {
   display: flex;
   flex-direction: column;
@@ -306,6 +311,9 @@ body .benefit_plus_member .ben_pls_mem {
   @media (min-width: 768px) {
     body .benefit_plus_member .ben_pls_mem {
       padding-bottom: 1rem; } }
+  @media (min-width: 1024px) {
+    body .benefit_plus_member .ben_pls_mem {
+      padding-bottom: 1.5rem; } }
   body .benefit_plus_member .ben_pls_mem p {
     padding-bottom: 0.2rem; }
   body .benefit_plus_member .ben_pls_mem span {
@@ -424,7 +432,8 @@ body .three_services {
         justify-content: space-between; } }
     @media (min-width: 1024px) {
       body .three_services .tvs_services {
-        padding-bottom: 4rem; } }
+        padding-top: 3rem;
+        padding-bottom: 2rem; } }
     @media (min-width: 768px) {
       body .three_services .tvs_services .tvs_services_1 {
         width: 53%; } }
@@ -528,7 +537,7 @@ body .disease_profile {
 
 @media (min-width: 1024px) {
   body .love_tvastra {
-    padding: 3rem 4rem; } }
+    padding: 2.5rem 4rem; } }
 
 body .love_tvastra .love_tvs_head {
   display: flex;
@@ -590,7 +599,7 @@ body .love_tvastra .love_tvastra_plan {
 
 @media (min-width: 1024px) {
   body .freq_ask_ques {
-    padding-top: 2rem; } }
+    padding-top: 1rem; } }
 
 @media (min-width: 768px) {
   body .freq_ask_ques .freq_head h4 {
@@ -623,7 +632,8 @@ body .freq_ask_ques .freq_body .freq_drpdwn .prf_drpdwn-content {
     padding: 0.5rem;
     margin-top: 0.6rem; }
   body .freq_ask_ques .freq_body .freq_drpdwn .prf_drpdwn-content p {
-    text-align: left; }
+    text-align: left;
+    font-size: 1rem; }
 
 @media (min-width: 1024px) {
   body .footer {
