@@ -46,6 +46,7 @@ body .back_page {
           padding: 2rem 0; } }
       @media (min-width: 1024px) {
         body .back_page .back_page_1 .back_page_1_info {
+          margin: 4rem 0;
           height: 200px;
           align-items: flex-start;
           left: 6rem;
@@ -58,6 +59,9 @@ body .back_page {
         line-height: 0; }
       body .back_page .back_page_1 .back_page_1_info .span_info {
         text-align: center; }
+        @media (min-width: 1024px) {
+          body .back_page .back_page_1 .back_page_1_info .span_info {
+            font-size: 1.2rem; } }
         body .back_page .back_page_1 .back_page_1_info .span_info span {
           font-family: "Nexa Light";
           line-height: 1.3rem; }
@@ -79,6 +83,9 @@ body .back_page {
       background: #fff;
       margin: 0 1rem;
       border-radius: 5px; }
+      @media (min-width: 1024px) {
+        body .back_page .back_page_2 .tvastra_plan {
+          top: 450px; } }
       body .back_page .back_page_2 .tvastra_plan .tvastra_plan_head {
         border-bottom: 1px dotted gray;
         text-align: center;
@@ -170,7 +177,7 @@ body .back_page {
 
 @media (min-width: 1024px) {
   body .tvastra_review {
-    padding: 2rem 4rem; } }
+    padding: 11rem 4rem 3rem 4rem; } }
 
 @media (min-width: 1024px) {
   body .tvastra_review .tvst_review_head h4 {
