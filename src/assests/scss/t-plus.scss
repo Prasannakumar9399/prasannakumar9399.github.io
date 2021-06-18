@@ -658,11 +658,21 @@ body {
                 box-shadow: 5px -5px 12px 2px #e5e2e2;
 
                 h6 {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                     line-height: 1.5rem;
+                    @media (min-width: 768px) {
+                        font-size: 1.5rem;
+                        line-height: 1.9rem;
+                    }
+                    @media (min-width: 1024px) {
+                        font-size: 1.4rem;
+                        line-height: 2rem;
+                    }
                 }
                 p {
-                    font-size: 0.9rem;
+                    font-size: 1.3rem;
+                    color: #cccccc;
+                    font-family: "Nexa Bold";
                 }
                 .dis_img {
                     width: 60px;
